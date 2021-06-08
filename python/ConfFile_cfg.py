@@ -5,8 +5,6 @@ process.load("FWCore.MessageService.MessageLogger_cfi")
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
-        #'file:/afs/cern.ch/work/y/ykao/tPrimeExcessHgg/CMSSW_10_6_8/src/miniAOD_pickevents/pickevents.root'
-        #'file:/afs/cern.ch/work/y/ykao/tPrimeExcessHgg/CMSSW_10_6_8/src/pickevents.root'
         'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131039_miniAOD.root'
         #'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131124_miniAOD.root'
     )
@@ -33,7 +31,7 @@ process.jec = cms.ESSource('PoolDBESSource',
 process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
 
 process.jeR = cms.ESSource('PoolDBESSource',
-    connect = cms.string('sqlite:Summer19UL18_JRV2_MC.db'),     #(--> To be adapted to the correction file you want to use)
+    connect = cms.string('sqlite:Summer19UL18_JRV2_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         # Resolution
         cms.PSet(
@@ -53,7 +51,8 @@ process.jeR = cms.ESSource('PoolDBESSource',
 # Add an ESPrefer to override JEC that might be available from the global tag
 process.es_prefer_jeR = cms.ESPrefer('PoolDBESSource', 'jeR')
 
-from PhysicsTools.PatAlgos.tools.helpers import getPatAlgosToolsTask
+#/cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_8/src/PhysicsTools/PatAlgos/python/tools/helpers.py
+#/cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_8/src/PhysicsTools/PatAlgos/python/tools/jetTools.py
 from PhysicsTools.PatAlgos.tools.jetTools import updateJetCollection
 updateJetCollection(
     process,
@@ -63,7 +62,8 @@ updateJetCollection(
 )
 
 process.slimmedJetsSmeared = cms.EDProducer('SmearedPATJetProducer',
-    #        src = cms.InputTag('slimmedJets'),
+    #src = cms.InputTag('slimmedJets'),
+    #src = cms.InputTag('updatedPatJetsUpdatedJEC'),
     src = cms.InputTag('selectedUpdatedPatJetsUpdatedJEC'),
     enabled = cms.bool(True),
     rho = cms.InputTag("fixedGridRhoFastjetAll"),
@@ -84,14 +84,21 @@ process.slimmedJetsSmeared = cms.EDProducer('SmearedPATJetProducer',
 
 #----------------------------------------------------------------------------------------------------
 
-
-#process.demo = cms.EDAnalyzer('thqAnalyzer')
 process.demo = cms.EDAnalyzer('thqAnalyzer',
-        jetsColBeforeJER = cms.InputTag("selectedUpdatedPatJetsUpdatedJEC"),
-        jetsCol = cms.InputTag('slimmedJetsSmeared'),
-        jets = cms.InputTag("slimmedJets")
+    jetsColBeforeJER = cms.InputTag("selectedUpdatedPatJetsUpdatedJEC"),
+    jetsCol = cms.InputTag('slimmedJetsSmeared'),
+    jets = cms.InputTag("slimmedJets")
 )
 
-print "my check: process.jec = ", process.jec
-#process.p = cms.Path(process.demo)
-process.p = cms.Path( process.slimmedJetsSmeared * process.demo)
+task = getattr(process, "patAlgosToolsTask")
+process.p = cms.Path( process.slimmedJetsSmeared * process.demo, task )
+
+process.out = cms.OutputModule(
+    "PoolOutputModule",
+    fileName = cms.untracked.string('new_1_132_131039.root'),
+    outputCommands = cms.untracked.vstring(
+        "keep *"
+    )
+)
+
+process.e = cms.EndPath(process.out)
