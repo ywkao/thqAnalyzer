@@ -61,6 +61,8 @@ class thqAnalyzer : public edm::one::EDAnalyzer<edm::one::SharedResources>  {
 
       // ----------member data ---------------------------
       edm::EDGetTokenT<std::vector<pat::Jet>> jetToken_;
+      //edm::EDGetTokenT<std::vector<pat::Jet>> jetsColBeforeJERToken_;
+      //edm::EDGetTokenT<std::vector<pat::Jet>> jetsColToken_;
 };
 
 //
@@ -75,6 +77,8 @@ class thqAnalyzer : public edm::one::EDAnalyzer<edm::one::SharedResources>  {
 // constructors and destructor
 //
 thqAnalyzer::thqAnalyzer(const edm::ParameterSet& iConfig):
+    //jetsColBeforeJERToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jetsColBeforeJER"))),
+    //jetsColToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jetsCol"))),
     jetToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jets")))
 {
    //now do what ever initialization is needed
@@ -109,16 +113,41 @@ thqAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
    //        printf("jet %d pt = %f\n", counter, pt);
    //}
 
-
     printf("analyze:: Hello World!\n");
 
+    //jetsColBeforeJER = cms.InputTag("selectedUpdatedPatJetsUpdatedJEC");
+    //jetsCol = cms.InputTag('slimmedJetsSmeared');
+
     edm::Handle<std::vector<pat::Jet>> jets;
+
     iEvent.getByToken(jetToken_, jets);
+
     int ijet = 0;
     for (const pat::Jet &j : *jets) {
         ijet += 1;
         std::cout << "Jet " << ijet << ": Pt " << j.pt() << " eta " << j.eta() << " phi " << j.phi() << " E " << j.energy() << std::endl;
     }
+
+    /*
+    edm::Handle<std::vector<pat::Jet>> jetsColBeforeJER;
+    edm::Handle<std::vector<pat::Jet>> jetsCol;
+    iEvent.getByToken(jetsColBeforeJERToken_, jetsColBeforeJER);
+    iEvent.getByToken(jetsColToken_, jetsCol);
+    printf("\n--------------------------------------------------\n\n");
+    ijet = 0;
+    for (const pat::Jet &j : *jetsColBeforeJER) {
+        ijet += 1;
+        std::cout << "Jet " << ijet << ": Pt " << j.pt() << " eta " << j.eta() << " phi " << j.phi() << " E " << j.energy() << std::endl;
+    }
+
+    printf("\n--------------------------------------------------\n\n");
+    ijet = 0;
+    for (const pat::Jet &j : *jetsCol) {
+        ijet += 1;
+        std::cout << "Jet " << ijet << ": Pt " << j.pt() << " eta " << j.eta() << " phi " << j.phi() << " E " << j.energy() << std::endl;
+    }
+    */
+
 
 
 #ifdef THIS_IS_AN_EVENTSETUP_EXAMPLE
