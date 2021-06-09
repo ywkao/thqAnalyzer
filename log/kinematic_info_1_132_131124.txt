@@ -866,6 +866,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.207 eta=-0.138695
   JERCentral: Jet has pt=239.207 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.292
 [JetSmear.cc] Jet Pt 239.207 eta -0.138695 phi -2.11403 E 242.048, New Pt 241.292 eta -0.138695 phi -2.11403 E 244.158, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -873,6 +874,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.16067 to get new pt 146.538
 [JetSmear.cc] escale = 1.16067, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 146.538 eta 0.622308 phi 1.07859 E 178.183, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECCentral: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1
@@ -880,6 +882,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=79.9222 eta=1.6251
   JERCentral: Jet has pt=79.9222 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.16413 scale_factor=1.1307 extra_smear_width=0.0866137 --> escale=1.00632 to get new pt 80.427
 [JetSmear.cc] escale = 1.00632, Jet Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, New Pt 80.427 eta 1.6251 phi -2.59408 E 212.62, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECCentral: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1
@@ -887,6 +890,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=45.584 eta=-1.41446
   JERCentral: Jet has pt=45.584 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.214958 scale_factor=1.1307 extra_smear_width=0.113437 --> escale=0.895376 to get new pt 40.8148
 [JetSmear.cc] escale = 0.895376, Jet Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, New Pt 40.8148 eta -1.41446 phi 0.139689 E 89.4851, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECCentral: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1
@@ -894,6 +898,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=16.6553 eta=1.52943
   JERCentral: Jet has pt=16.6553 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.371959 scale_factor=1.1307 extra_smear_width=0.196288 --> escale=1.06838 to get new pt 17.7942
 [JetSmear.cc] escale = 1.06838, Jet Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, New Pt 17.7942 eta 1.52943 phi 2.46413 E 43.1792, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECDown01sigma: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 0.993777
@@ -901,6 +906,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=237.718 eta=-0.138695
   JERCentral: Jet has pt=237.718 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=239.591
 [JetSmear.cc] Jet Pt 237.718 eta -0.138695 phi -2.11403 E 240.542, New Pt 239.591 eta -0.138695 phi -2.11403 E 242.437, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECUp01sigma: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 1.00622
@@ -908,6 +914,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.695 eta=-0.138695
   JERCentral: Jet has pt=240.695 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.994
 [JetSmear.cc] Jet Pt 240.695 eta -0.138695 phi -2.11403 E 243.554, New Pt 242.994 eta -0.138695 phi -2.11403 E 245.88, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECCentral: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 1
@@ -915,6 +922,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=239.207 eta=-0.138695
   JERDown01sigma: Jet has pt=239.207 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.969
 [JetSmear.cc] Jet Pt 239.207 eta -0.138695 phi -2.11403 E 242.048, New Pt 240.969 eta -0.138695 phi -2.11403 E 243.831, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECCentral: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 1
@@ -922,6 +930,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=239.207 eta=-0.138695
   JERUp01sigma: Jet has pt=239.207 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=241.616
 [JetSmear.cc] Jet Pt 239.207 eta -0.138695 phi -2.11403 E 242.048, New Pt 241.616 eta -0.138695 phi -2.11403 E 244.486, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECCentral: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 1
@@ -929,6 +938,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.207 eta=-0.138695
   JERCentral: Jet has pt=239.207 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.292
 [JetSmear.cc] Jet Pt 239.207 eta -0.138695 phi -2.11403 E 242.048, New Pt 241.292 eta -0.138695 phi -2.11403 E 244.158, 
+
  DOING JEC! We get this jec from the corrector: 1.03436
     ... previous jec was: 1.03436
   JECCentral: Jet has pt= 239.207 eta=-0.138695 and we apply a multiplicative correction of 1
@@ -936,6 +946,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.207 eta=-0.138695
   JERCentral: Jet has pt=239.207 eta=-0.138695 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.292
 [JetSmear.cc] Jet Pt 239.207 eta -0.138695 phi -2.11403 E 242.048, New Pt 241.292 eta -0.138695 phi -2.11403 E 244.158, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -943,6 +954,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=1.16121 to get new pt 145.4
 [JetSmear.cc] escale = 1.16121, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 145.4 eta 0.622308 phi 1.07859 E 176.8, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -950,6 +962,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=1.16013 to get new pt 147.676
 [JetSmear.cc] escale = 1.16013, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 147.676 eta 0.622308 phi 1.07859 E 179.566, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -957,6 +970,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=1.13611 to get new pt 143.437
 [JetSmear.cc] escale = 1.13611, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 143.437 eta 0.622308 phi 1.07859 E 174.413, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -964,6 +978,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=1.18282 to get new pt 149.335
 [JetSmear.cc] escale = 1.18282, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 149.335 eta 0.622308 phi 1.07859 E 181.584, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -971,6 +986,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.16067 to get new pt 146.538
 [JetSmear.cc] escale = 1.16067, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 146.538 eta 0.622308 phi 1.07859 E 178.183, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -978,6 +994,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=2.5278 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.16067 to get new pt 146.538
 [JetSmear.cc] escale = 1.16067, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 146.538 eta 0.622308 phi 1.07859 E 178.183, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECDown01sigma: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 0.987972
@@ -985,6 +1002,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=78.9609 eta=1.6251
   JERCentral: Jet has pt=78.9609 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.165042 scale_factor=1.1307 extra_smear_width=0.0870952 --> escale=1.00635 to get new pt 79.4624
 [JetSmear.cc] escale = 1.00635, Jet Pt 78.9609 eta 1.6251 phi -2.59408 E 208.744, New Pt 79.4624 eta 1.6251 phi -2.59408 E 210.07, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECUp01sigma: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1.01203
@@ -992,6 +1010,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=80.8835 eta=1.6251
   JERCentral: Jet has pt=80.8835 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.163235 scale_factor=1.1307 extra_smear_width=0.0861415 --> escale=1.00628 to get new pt 81.3916
 [JetSmear.cc] escale = 1.00628, Jet Pt 80.8835 eta 1.6251 phi -2.59408 E 213.827, New Pt 81.3916 eta 1.6251 phi -2.59408 E 215.17, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECCentral: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1
@@ -999,6 +1018,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=79.9222 eta=1.6251
   JERDown01sigma: Jet has pt=79.9222 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.16413 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 79.9222
 [JetSmear.cc] escale = 1, Jet Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, New Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECCentral: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1
@@ -1006,6 +1026,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=79.9222 eta=1.6251
   JERUp01sigma: Jet has pt=79.9222 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.16413 scale_factor=1.2778 extra_smear_width=0.13056 --> escale=1.00952 to get new pt 80.6832
 [JetSmear.cc] escale = 1.00952, Jet Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, New Pt 80.6832 eta 1.6251 phi -2.59408 E 213.297, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECCentral: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1
@@ -1013,6 +1034,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=79.9222 eta=1.6251
   JERCentral: Jet has pt=79.9222 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.16413 scale_factor=1.1307 extra_smear_width=0.0866137 --> escale=1.00632 to get new pt 80.427
 [JetSmear.cc] escale = 1.00632, Jet Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, New Pt 80.427 eta 1.6251 phi -2.59408 E 212.62, 
+
  DOING JEC! We get this jec from the corrector: 1.06734
     ... previous jec was: 1.06734
   JECCentral: Jet has pt= 79.9222 eta=1.6251 and we apply a multiplicative correction of 1
@@ -1020,6 +1042,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=79.9222 eta=1.6251
   JERCentral: Jet has pt=79.9222 eta=1.6251 NO GEN MATCH  rnd=0.072922 r=0.16413 scale_factor=1.1307 extra_smear_width=0.0866137 --> escale=1.00632 to get new pt 80.427
 [JetSmear.cc] escale = 1.00632, Jet Pt 79.9222 eta 1.6251 phi -2.59408 E 211.286, New Pt 80.427 eta 1.6251 phi -2.59408 E 212.62, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECDown01sigma: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 0.984596
@@ -1027,6 +1050,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=44.8818 eta=-1.41446
   JERCentral: Jet has pt=44.8818 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.216645 scale_factor=1.1307 extra_smear_width=0.114327 --> escale=0.894555 to get new pt 40.1492
 [JetSmear.cc] escale = 0.894555, Jet Pt 44.8818 eta -1.41446 phi 0.139689 E 98.4019, New Pt 40.1492 eta -1.41446 phi 0.139689 E 88.0259, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECUp01sigma: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1.0154
@@ -1034,6 +1058,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=46.2861 eta=-1.41446
   JERCentral: Jet has pt=46.2861 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.213314 scale_factor=1.1307 extra_smear_width=0.112569 --> escale=0.896176 to get new pt 41.4805
 [JetSmear.cc] escale = 0.896176, Jet Pt 46.2861 eta -1.41446 phi 0.139689 E 101.481, New Pt 41.4805 eta -1.41446 phi 0.139689 E 90.9447, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECCentral: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1
@@ -1041,6 +1066,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=45.584 eta=-1.41446
   JERDown01sigma: Jet has pt=45.584 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.214958 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 45.584
 [JetSmear.cc] escale = 1, Jet Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, New Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECCentral: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1
@@ -1048,6 +1074,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=45.584 eta=-1.41446
   JERUp01sigma: Jet has pt=45.584 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.214958 scale_factor=1.2778 extra_smear_width=0.170993 --> escale=0.842291 to get new pt 38.3949
 [JetSmear.cc] escale = 0.842291, Jet Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, New Pt 38.3949 eta -1.41446 phi 0.139689 E 84.1797, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECCentral: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1
@@ -1055,6 +1082,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=45.584 eta=-1.41446
   JERCentral: Jet has pt=45.584 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.214958 scale_factor=1.1307 extra_smear_width=0.113437 --> escale=0.895376 to get new pt 40.8148
 [JetSmear.cc] escale = 0.895376, Jet Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, New Pt 40.8148 eta -1.41446 phi 0.139689 E 89.4851, 
+
  DOING JEC! We get this jec from the corrector: 0.987619
     ... previous jec was: 0.987619
   JECCentral: Jet has pt= 45.584 eta=-1.41446 and we apply a multiplicative correction of 1
@@ -1062,6 +1090,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=45.584 eta=-1.41446
   JERCentral: Jet has pt=45.584 eta=-1.41446 NO GEN MATCH  rnd=-0.922315 r=0.214958 scale_factor=1.1307 extra_smear_width=0.113437 --> escale=0.895376 to get new pt 40.8148
 [JetSmear.cc] escale = 0.895376, Jet Pt 45.584 eta -1.41446 phi 0.139689 E 99.9414, New Pt 40.8148 eta -1.41446 phi 0.139689 E 89.4851, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECDown01sigma: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 0.969002
@@ -1069,6 +1098,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=16.139 eta=1.52943
   JERCentral: Jet has pt=16.139 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.378953 scale_factor=1.1307 extra_smear_width=0.199979 --> escale=1.06966 to get new pt 17.2634
 [JetSmear.cc] escale = 1.06966, Jet Pt 16.139 eta 1.52943 phi 2.46413 E 39.1628, New Pt 17.2634 eta 1.52943 phi 2.46413 E 41.891, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECUp01sigma: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1.031
@@ -1076,6 +1106,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=17.1716 eta=1.52943
   JERCentral: Jet has pt=17.1716 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.365336 scale_factor=1.1307 extra_smear_width=0.192793 --> escale=1.06716 to get new pt 18.3249
 [JetSmear.cc] escale = 1.06716, Jet Pt 17.1716 eta 1.52943 phi 2.46413 E 41.6684, New Pt 18.3249 eta 1.52943 phi 2.46413 E 44.4669, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECCentral: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1
@@ -1083,6 +1114,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=16.6553 eta=1.52943
   JERDown01sigma: Jet has pt=16.6553 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.371959 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 16.6553
 [JetSmear.cc] escale = 1, Jet Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, New Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECCentral: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1
@@ -1090,6 +1122,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=16.6553 eta=1.52943
   JERUp01sigma: Jet has pt=16.6553 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.371959 scale_factor=1.2778 extra_smear_width=0.295882 --> escale=1.10307 to get new pt 18.372
 [JetSmear.cc] escale = 1.10307, Jet Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, New Pt 18.372 eta 1.52943 phi 2.46413 E 44.5814, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECCentral: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1
@@ -1097,6 +1130,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=16.6553 eta=1.52943
   JERCentral: Jet has pt=16.6553 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.371959 scale_factor=1.1307 extra_smear_width=0.196288 --> escale=1.06838 to get new pt 17.7942
 [JetSmear.cc] escale = 1.06838, Jet Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, New Pt 17.7942 eta 1.52943 phi 2.46413 E 43.1792, 
+
  DOING JEC! We get this jec from the corrector: 0.83111
     ... previous jec was: 0.83111
   JECCentral: Jet has pt= 16.6553 eta=1.52943 and we apply a multiplicative correction of 1
@@ -1104,6 +1138,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=16.6553 eta=1.52943
   JERCentral: Jet has pt=16.6553 eta=1.52943 NO GEN MATCH  rnd=0.34836 r=0.371959 scale_factor=1.1307 extra_smear_width=0.196288 --> escale=1.06838 to get new pt 17.7942
 [JetSmear.cc] escale = 1.06838, Jet Pt 16.6553 eta 1.52943 phi 2.46413 E 40.4156, New Pt 17.7942 eta 1.52943 phi 2.46413 E 43.1792, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1111,6 +1146,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECCentral: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1
@@ -1118,6 +1154,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.897 eta=0.619779
   JERCentral: Jet has pt=127.897 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100481 scale_factor=1.1815 extra_smear_width=0.0632266 --> escale=0.952651 to get new pt 121.841
 [JetSmear.cc] escale = 0.952651, Jet Pt 127.897 eta 0.619779 phi 1.07823 E 155.317, New Pt 121.841 eta 0.619779 phi 1.07823 E 147.963, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECCentral: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1
@@ -1125,6 +1162,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=85.2822 eta=1.59539
   JERCentral: Jet has pt=85.2822 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.159354 scale_factor=1.1307 extra_smear_width=0.0840933 --> escale=0.992641 to get new pt 84.6545
 [JetSmear.cc] escale = 0.992641, Jet Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, New Pt 84.6545 eta 1.59539 phi -2.62772 E 217.919, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECCentral: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1
@@ -1132,6 +1170,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=25.4157 eta=1.86061
   JERCentral: Jet has pt=25.4157 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.301854 scale_factor=1.16 extra_smear_width=0.177453 --> escale=1.28446 to get new pt 32.6455
 [JetSmear.cc] escale = 1.28446, Jet Pt 25.4157 eta 1.86061 phi 0.962828 E 83.8805, New Pt 32.6455 eta 1.86061 phi 0.962828 E 107.741, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECCentral: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1
@@ -1139,6 +1178,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=22.3568 eta=-1.27815
   JERCentral: Jet has pt=22.3568 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.277993 scale_factor=1.1137 extra_smear_width=0.136281 --> escale=1.08319 to get new pt 24.2167
 [JetSmear.cc] escale = 1.08319, Jet Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, New Pt 24.2167 eta -1.27815 phi 0.242237 E 46.9937, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECDown01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 0.993768
@@ -1146,6 +1186,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=236.909 eta=-0.139126
   JERCentral: Jet has pt=236.909 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=238.665
 [JetSmear.cc] Jet Pt 236.909 eta -0.139126 phi -2.11453 E 239.652, New Pt 238.665 eta -0.139126 phi -2.11453 E 241.429, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECUp01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1.00623
@@ -1153,6 +1194,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.88 eta=-0.139126
   JERCentral: Jet has pt=239.88 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.062
 [JetSmear.cc] Jet Pt 239.88 eta -0.139126 phi -2.11453 E 242.658, New Pt 242.062 eta -0.139126 phi -2.11453 E 244.865, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1160,6 +1202,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.059
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.059 eta -0.139126 phi -2.11453 E 242.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1167,6 +1210,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=240.669
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.669 eta -0.139126 phi -2.11453 E 243.456, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1174,6 +1218,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1181,6 +1226,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECDown01sigma: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 0.991813
@@ -1188,6 +1234,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.85 eta=0.619779
   JERCentral: Jet has pt=126.85 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100818 scale_factor=1.1815 extra_smear_width=0.063439 --> escale=0.952492 to get new pt 120.824
 [JetSmear.cc] escale = 0.952492, Jet Pt 126.85 eta 0.619779 phi 1.07823 E 154.045, New Pt 120.824 eta 0.619779 phi 1.07823 E 146.727, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECUp01sigma: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1.00819
@@ -1195,6 +1242,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=128.944 eta=0.619779
   JERCentral: Jet has pt=128.944 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100148 scale_factor=1.1815 extra_smear_width=0.0630171 --> escale=0.952808 to get new pt 122.859
 [JetSmear.cc] escale = 0.952808, Jet Pt 128.944 eta 0.619779 phi 1.07823 E 156.588, New Pt 122.859 eta 0.619779 phi 1.07823 E 149.199, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECCentral: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1
@@ -1202,6 +1250,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=127.897 eta=0.619779
   JERDown01sigma: Jet has pt=127.897 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100481 scale_factor=1.1332 extra_smear_width=0.0535614 --> escale=0.959889 to get new pt 122.767
 [JetSmear.cc] escale = 0.959889, Jet Pt 127.897 eta 0.619779 phi 1.07823 E 155.317, New Pt 122.767 eta 0.619779 phi 1.07823 E 149.087, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECCentral: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1
@@ -1209,6 +1258,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=127.897 eta=0.619779
   JERUp01sigma: Jet has pt=127.897 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100481 scale_factor=1.2299 extra_smear_width=0.0719443 --> escale=0.946122 to get new pt 121.006
 [JetSmear.cc] escale = 0.946122, Jet Pt 127.897 eta 0.619779 phi 1.07823 E 155.317, New Pt 121.006 eta 0.619779 phi 1.07823 E 146.949, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECCentral: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1
@@ -1216,6 +1266,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.897 eta=0.619779
   JERCentral: Jet has pt=127.897 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100481 scale_factor=1.1815 extra_smear_width=0.0632266 --> escale=0.952651 to get new pt 121.841
 [JetSmear.cc] escale = 0.952651, Jet Pt 127.897 eta 0.619779 phi 1.07823 E 155.317, New Pt 121.841 eta 0.619779 phi 1.07823 E 147.963, 
+
  DOING JEC! We get this jec from the corrector: 1.00224
     ... previous jec was: 1.00224
   JECCentral: Jet has pt= 127.897 eta=0.619779 and we apply a multiplicative correction of 1
@@ -1223,6 +1274,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.897 eta=0.619779
   JERCentral: Jet has pt=127.897 eta=0.619779 NO GEN MATCH  rnd=-0.74888 r=0.100481 scale_factor=1.1815 extra_smear_width=0.0632266 --> escale=0.952651 to get new pt 121.841
 [JetSmear.cc] escale = 0.952651, Jet Pt 127.897 eta 0.619779 phi 1.07823 E 155.317, New Pt 121.841 eta 0.619779 phi 1.07823 E 147.963, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECDown01sigma: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 0.988982
@@ -1230,6 +1282,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=84.3426 eta=1.59539
   JERCentral: Jet has pt=84.3426 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.160155 scale_factor=1.1307 extra_smear_width=0.0845161 --> escale=0.992604 to get new pt 83.7187
 [JetSmear.cc] escale = 0.992604, Jet Pt 84.3426 eta 1.59539 phi -2.62772 E 217.116, New Pt 83.7187 eta 1.59539 phi -2.62772 E 215.51, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECUp01sigma: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1.01102
@@ -1237,6 +1290,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=86.2218 eta=1.59539
   JERCentral: Jet has pt=86.2218 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.158567 scale_factor=1.1307 extra_smear_width=0.0836782 --> escale=0.992677 to get new pt 85.5903
 [JetSmear.cc] escale = 0.992677, Jet Pt 86.2218 eta 1.59539 phi -2.62772 E 221.954, New Pt 85.5903 eta 1.59539 phi -2.62772 E 220.328, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECCentral: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1
@@ -1244,6 +1298,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=85.2822 eta=1.59539
   JERDown01sigma: Jet has pt=85.2822 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.159354 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 85.2822
 [JetSmear.cc] escale = 1, Jet Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, New Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECCentral: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1
@@ -1251,6 +1306,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=85.2822 eta=1.59539
   JERUp01sigma: Jet has pt=85.2822 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.159354 scale_factor=1.2778 extra_smear_width=0.126761 --> escale=0.988907 to get new pt 84.3361
 [JetSmear.cc] escale = 0.988907, Jet Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, New Pt 84.3361 eta 1.59539 phi -2.62772 E 217.099, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECCentral: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1
@@ -1258,6 +1314,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=85.2822 eta=1.59539
   JERCentral: Jet has pt=85.2822 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.159354 scale_factor=1.1307 extra_smear_width=0.0840933 --> escale=0.992641 to get new pt 84.6545
 [JetSmear.cc] escale = 0.992641, Jet Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, New Pt 84.6545 eta 1.59539 phi -2.62772 E 217.919, 
+
  DOING JEC! We get this jec from the corrector: 1.07022
     ... previous jec was: 1.07022
   JECCentral: Jet has pt= 85.2822 eta=1.59539 and we apply a multiplicative correction of 1
@@ -1265,6 +1322,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=85.2822 eta=1.59539
   JERCentral: Jet has pt=85.2822 eta=1.59539 NO GEN MATCH  rnd=-0.0875148 r=0.159354 scale_factor=1.1307 extra_smear_width=0.0840933 --> escale=0.992641 to get new pt 84.6545
 [JetSmear.cc] escale = 0.992641, Jet Pt 85.2822 eta 1.59539 phi -2.62772 E 219.535, New Pt 84.6545 eta 1.59539 phi -2.62772 E 217.919, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECDown01sigma: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 0.970766
@@ -1272,6 +1330,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=24.6727 eta=1.86061
   JERCentral: Jet has pt=24.6727 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.307352 scale_factor=1.16 extra_smear_width=0.180685 --> escale=1.28964 to get new pt 31.8189
 [JetSmear.cc] escale = 1.28964, Jet Pt 24.6727 eta 1.86061 phi 0.962828 E 81.4283, New Pt 31.8189 eta 1.86061 phi 0.962828 E 105.014, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECUp01sigma: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1.02923
@@ -1279,6 +1338,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=26.1587 eta=1.86061
   JERCentral: Jet has pt=26.1587 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.29664 scale_factor=1.16 extra_smear_width=0.174388 --> escale=1.27955 to get new pt 33.4713
 [JetSmear.cc] escale = 1.27955, Jet Pt 26.1587 eta 1.86061 phi 0.962828 E 86.3327, New Pt 33.4713 eta 1.86061 phi 0.962828 E 110.467, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECCentral: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1
@@ -1286,6 +1346,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=25.4157 eta=1.86061
   JERDown01sigma: Jet has pt=25.4157 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.301854 scale_factor=1.0623 extra_smear_width=0.108198 --> escale=1.17344 to get new pt 29.8238
 [JetSmear.cc] escale = 1.17344, Jet Pt 25.4157 eta 1.86061 phi 0.962828 E 83.8805, New Pt 29.8238 eta 1.86061 phi 0.962828 E 98.429, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECCentral: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1
@@ -1293,6 +1354,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=25.4157 eta=1.86061
   JERUp01sigma: Jet has pt=25.4157 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.301854 scale_factor=1.2576 extra_smear_width=0.230194 --> escale=1.36901 to get new pt 34.7942
 [JetSmear.cc] escale = 1.36901, Jet Pt 25.4157 eta 1.86061 phi 0.962828 E 83.8805, New Pt 34.7942 eta 1.86061 phi 0.962828 E 114.833, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECCentral: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1
@@ -1300,6 +1362,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=25.4157 eta=1.86061
   JERCentral: Jet has pt=25.4157 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.301854 scale_factor=1.16 extra_smear_width=0.177453 --> escale=1.28446 to get new pt 32.6455
 [JetSmear.cc] escale = 1.28446, Jet Pt 25.4157 eta 1.86061 phi 0.962828 E 83.8805, New Pt 32.6455 eta 1.86061 phi 0.962828 E 107.741, 
+
  DOING JEC! We get this jec from the corrector: 1.14009
     ... previous jec was: 1.14009
   JECCentral: Jet has pt= 25.4157 eta=1.86061 and we apply a multiplicative correction of 1
@@ -1307,6 +1370,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=25.4157 eta=1.86061
   JERCentral: Jet has pt=25.4157 eta=1.86061 NO GEN MATCH  rnd=1.60303 r=0.301854 scale_factor=1.16 extra_smear_width=0.177453 --> escale=1.28446 to get new pt 32.6455
 [JetSmear.cc] escale = 1.28446, Jet Pt 25.4157 eta 1.86061 phi 0.962828 E 83.8805, New Pt 32.6455 eta 1.86061 phi 0.962828 E 107.741, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECDown01sigma: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 0.974528
@@ -1314,6 +1378,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=21.7873 eta=-1.27815
   JERCentral: Jet has pt=21.7873 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.281712 scale_factor=1.1137 extra_smear_width=0.138104 --> escale=1.08431 to get new pt 23.6241
 [JetSmear.cc] escale = 1.08431, Jet Pt 21.7873 eta -1.27815 phi 0.242237 E 42.2793, New Pt 23.6241 eta -1.27815 phi 0.242237 E 45.8437, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECUp01sigma: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1.02547
@@ -1321,6 +1386,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=22.9263 eta=-1.27815
   JERCentral: Jet has pt=22.9263 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.274428 scale_factor=1.1137 extra_smear_width=0.134534 --> escale=1.08213 to get new pt 24.8091
 [JetSmear.cc] escale = 1.08213, Jet Pt 22.9263 eta -1.27815 phi 0.242237 E 44.4895, New Pt 24.8091 eta -1.27815 phi 0.242237 E 48.1433, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECCentral: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1
@@ -1328,6 +1394,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=22.3568 eta=-1.27815
   JERDown01sigma: Jet has pt=22.3568 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.277993 scale_factor=0.974 extra_smear_width=0 --> escale=1 to get new pt 22.3568
 [JetSmear.cc] escale = 1, Jet Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, New Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECCentral: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1
@@ -1335,6 +1402,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=22.3568 eta=-1.27815
   JERUp01sigma: Jet has pt=22.3568 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.277993 scale_factor=1.2533 extra_smear_width=0.21002 --> escale=1.12821 to get new pt 25.2231
 [JetSmear.cc] escale = 1.12821, Jet Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, New Pt 25.2231 eta -1.27815 phi 0.242237 E 48.9466, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECCentral: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1
@@ -1342,6 +1410,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=22.3568 eta=-1.27815
   JERCentral: Jet has pt=22.3568 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.277993 scale_factor=1.1137 extra_smear_width=0.136281 --> escale=1.08319 to get new pt 24.2167
 [JetSmear.cc] escale = 1.08319, Jet Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, New Pt 24.2167 eta -1.27815 phi 0.242237 E 46.9937, 
+
  DOING JEC! We get this jec from the corrector: 0.871725
     ... previous jec was: 0.871724
   JECCentral: Jet has pt= 22.3568 eta=-1.27815 and we apply a multiplicative correction of 1
@@ -1349,6 +1418,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=22.3568 eta=-1.27815
   JERCentral: Jet has pt=22.3568 eta=-1.27815 NO GEN MATCH  rnd=0.610451 r=0.277993 scale_factor=1.1137 extra_smear_width=0.136281 --> escale=1.08319 to get new pt 24.2167
 [JetSmear.cc] escale = 1.08319, Jet Pt 22.3568 eta -1.27815 phi 0.242237 E 43.3844, New Pt 24.2167 eta -1.27815 phi 0.242237 E 46.9937, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECCentral: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1
@@ -1356,6 +1426,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.257 eta=-0.140032
   JERCentral: Jet has pt=240.257 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.493
 [JetSmear.cc] Jet Pt 240.257 eta -0.140032 phi -2.1132 E 243.142, New Pt 242.493 eta -0.140032 phi -2.1132 E 245.405, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1363,6 +1434,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.887838 to get new pt 112.092
 [JetSmear.cc] escale = 0.887838, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 112.092 eta 0.622308 phi 1.07859 E 136.299, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1370,6 +1442,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.02815 to get new pt 68.451
 [JetSmear.cc] escale = 1.02815, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 68.451 eta 1.63667 phi -2.58605 E 182.891, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECDown01sigma: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 0.993789
@@ -1377,6 +1450,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.765 eta=-0.140032
   JERCentral: Jet has pt=238.765 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.787
 [JetSmear.cc] Jet Pt 238.765 eta -0.140032 phi -2.1132 E 241.632, New Pt 240.787 eta -0.140032 phi -2.1132 E 243.679, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECUp01sigma: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1.00621
@@ -1384,6 +1458,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.749 eta=-0.140032
   JERCentral: Jet has pt=241.749 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.198
 [JetSmear.cc] Jet Pt 241.749 eta -0.140032 phi -2.1132 E 244.652, New Pt 244.198 eta -0.140032 phi -2.1132 E 247.131, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECCentral: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1
@@ -1391,6 +1466,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=240.257 eta=-0.140032
   JERDown01sigma: Jet has pt=240.257 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=242.146
 [JetSmear.cc] Jet Pt 240.257 eta -0.140032 phi -2.1132 E 243.142, New Pt 242.146 eta -0.140032 phi -2.1132 E 245.054, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECCentral: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1
@@ -1398,6 +1474,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=240.257 eta=-0.140032
   JERUp01sigma: Jet has pt=240.257 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=242.839
 [JetSmear.cc] Jet Pt 240.257 eta -0.140032 phi -2.1132 E 243.142, New Pt 242.839 eta -0.140032 phi -2.1132 E 245.756, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECCentral: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1
@@ -1405,6 +1482,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.257 eta=-0.140032
   JERCentral: Jet has pt=240.257 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.493
 [JetSmear.cc] Jet Pt 240.257 eta -0.140032 phi -2.1132 E 243.142, New Pt 242.493 eta -0.140032 phi -2.1132 E 245.405, 
+
  DOING JEC! We get this jec from the corrector: 1.0345
     ... previous jec was: 1.0345
   JECCentral: Jet has pt= 240.257 eta=-0.140032 and we apply a multiplicative correction of 1
@@ -1412,6 +1490,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.257 eta=-0.140032
   JERCentral: Jet has pt=240.257 eta=-0.140032 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.493
 [JetSmear.cc] Jet Pt 240.257 eta -0.140032 phi -2.1132 E 243.142, New Pt 242.493 eta -0.140032 phi -2.1132 E 245.405, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -1419,6 +1498,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=0.887458 to get new pt 111.122
 [JetSmear.cc] escale = 0.887458, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 111.122 eta 0.622308 phi 1.07859 E 135.119, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -1426,6 +1506,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=0.888213 to get new pt 113.062
 [JetSmear.cc] escale = 0.888213, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 113.062 eta 0.622308 phi 1.07859 E 137.478, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1433,6 +1514,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=0.904984 to get new pt 114.257
 [JetSmear.cc] escale = 0.904984, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 114.257 eta 0.622308 phi 1.07859 E 138.931, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1440,6 +1522,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=0.872373 to get new pt 110.14
 [JetSmear.cc] escale = 0.872373, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 110.14 eta 0.622308 phi 1.07859 E 133.924, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1447,6 +1530,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.887838 to get new pt 112.092
 [JetSmear.cc] escale = 0.887838, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 112.092 eta 0.622308 phi 1.07859 E 136.299, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1454,6 +1538,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.76463 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.887838 to get new pt 112.092
 [JetSmear.cc] escale = 0.887838, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 112.092 eta 0.622308 phi 1.07859 E 136.299, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECDown01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 0.986477
@@ -1461,6 +1546,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.6766 eta=1.63667
   JERCentral: Jet has pt=65.6766 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.179846 scale_factor=1.1307 extra_smear_width=0.0949071 --> escale=1.02833 to get new pt 67.5372
 [JetSmear.cc] escale = 1.02833, Jet Pt 65.6766 eta 1.63667 phi -2.58605 E 175.478, New Pt 67.5372 eta 1.63667 phi -2.58605 E 180.45, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECUp01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1.01352
@@ -1468,6 +1554,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.4772 eta=1.63667
   JERCentral: Jet has pt=67.4772 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.177561 scale_factor=1.1307 extra_smear_width=0.0937013 --> escale=1.02797 to get new pt 69.3646
 [JetSmear.cc] escale = 1.02797, Jet Pt 67.4772 eta 1.63667 phi -2.58605 E 180.289, New Pt 69.3646 eta 1.63667 phi -2.58605 E 185.332, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1475,6 +1562,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.17869 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.5769
 [JetSmear.cc] escale = 1, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1482,6 +1570,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.17869 scale_factor=1.2778 extra_smear_width=0.142143 --> escale=1.04243 to get new pt 69.4018
 [JetSmear.cc] escale = 1.04243, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 69.4018 eta 1.63667 phi -2.58605 E 185.431, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1489,6 +1578,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.02815 to get new pt 68.451
 [JetSmear.cc] escale = 1.02815, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 68.451 eta 1.63667 phi -2.58605 E 182.891, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1496,6 +1586,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.29851 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.02815 to get new pt 68.451
 [JetSmear.cc] escale = 1.02815, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 68.451 eta 1.63667 phi -2.58605 E 182.891, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECCentral: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1
@@ -1503,6 +1594,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=243.4 eta=-0.136055
   JERCentral: Jet has pt=243.4 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=246.086
 [JetSmear.cc] Jet Pt 243.4 eta -0.136055 phi -2.11246 E 246.381, New Pt 246.086 eta -0.136055 phi -2.11246 E 249.1, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1510,6 +1602,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.959783 to get new pt 121.176
 [JetSmear.cc] escale = 0.959783, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 121.176 eta 0.622308 phi 1.07859 E 147.343, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1517,6 +1610,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.04214 to get new pt 69.3827
 [JetSmear.cc] escale = 1.04214, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 69.3827 eta 1.63667 phi -2.58605 E 185.38, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECDown01sigma: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 0.993826
@@ -1524,6 +1618,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.897 eta=-0.136055
   JERCentral: Jet has pt=241.897 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.368
 [JetSmear.cc] Jet Pt 241.897 eta -0.136055 phi -2.11246 E 244.86, New Pt 244.368 eta -0.136055 phi -2.11246 E 247.361, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECUp01sigma: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1.00617
@@ -1531,6 +1626,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=244.903 eta=-0.136055
   JERCentral: Jet has pt=244.903 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=247.804
 [JetSmear.cc] Jet Pt 244.903 eta -0.136055 phi -2.11246 E 247.902, New Pt 247.804 eta -0.136055 phi -2.11246 E 250.839, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECCentral: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1
@@ -1538,6 +1634,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=243.4 eta=-0.136055
   JERDown01sigma: Jet has pt=243.4 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=245.67
 [JetSmear.cc] Jet Pt 243.4 eta -0.136055 phi -2.11246 E 246.381, New Pt 245.67 eta -0.136055 phi -2.11246 E 248.678, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECCentral: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1
@@ -1545,6 +1642,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=243.4 eta=-0.136055
   JERUp01sigma: Jet has pt=243.4 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=246.503
 [JetSmear.cc] Jet Pt 243.4 eta -0.136055 phi -2.11246 E 246.381, New Pt 246.503 eta -0.136055 phi -2.11246 E 249.521, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECCentral: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1
@@ -1552,6 +1650,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=243.4 eta=-0.136055
   JERCentral: Jet has pt=243.4 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=246.086
 [JetSmear.cc] Jet Pt 243.4 eta -0.136055 phi -2.11246 E 246.381, New Pt 246.086 eta -0.136055 phi -2.11246 E 249.1, 
+
  DOING JEC! We get this jec from the corrector: 1.03491
     ... previous jec was: 1.03491
   JECCentral: Jet has pt= 243.4 eta=-0.136055 and we apply a multiplicative correction of 1
@@ -1559,6 +1658,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=243.4 eta=-0.136055
   JERCentral: Jet has pt=243.4 eta=-0.136055 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=246.086
 [JetSmear.cc] Jet Pt 243.4 eta -0.136055 phi -2.11246 E 246.381, New Pt 246.086 eta -0.136055 phi -2.11246 E 249.1, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -1566,6 +1666,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=0.959647 to get new pt 120.161
 [JetSmear.cc] escale = 0.959647, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 120.161 eta 0.622308 phi 1.07859 E 146.11, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -1573,6 +1674,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=0.959918 to get new pt 122.19
 [JetSmear.cc] escale = 0.959918, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 122.19 eta 0.622308 phi 1.07859 E 148.577, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1580,6 +1682,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=0.965931 to get new pt 121.952
 [JetSmear.cc] escale = 0.965931, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 121.952 eta 0.622308 phi 1.07859 E 148.287, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1587,6 +1690,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=0.954238 to get new pt 120.475
 [JetSmear.cc] escale = 0.954238, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 120.475 eta 0.622308 phi 1.07859 E 146.492, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1594,6 +1698,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.959783 to get new pt 121.176
 [JetSmear.cc] escale = 0.959783, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 121.176 eta 0.622308 phi 1.07859 E 147.343, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1601,6 +1706,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.632722 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.959783 to get new pt 121.176
 [JetSmear.cc] escale = 0.959783, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 121.176 eta 0.622308 phi 1.07859 E 147.343, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECDown01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 0.986477
@@ -1608,6 +1714,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.6766 eta=1.63667
   JERCentral: Jet has pt=65.6766 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.179846 scale_factor=1.1307 extra_smear_width=0.0949071 --> escale=1.04242 to get new pt 68.4624
 [JetSmear.cc] escale = 1.04242, Jet Pt 65.6766 eta 1.63667 phi -2.58605 E 175.478, New Pt 68.4624 eta 1.63667 phi -2.58605 E 182.921, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECUp01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1.01352
@@ -1615,6 +1722,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.4772 eta=1.63667
   JERCentral: Jet has pt=67.4772 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.177561 scale_factor=1.1307 extra_smear_width=0.0937013 --> escale=1.04188 to get new pt 70.303
 [JetSmear.cc] escale = 1.04188, Jet Pt 67.4772 eta 1.63667 phi -2.58605 E 180.289, New Pt 70.303 eta 1.63667 phi -2.58605 E 187.839, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1622,6 +1730,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.17869 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.5769
 [JetSmear.cc] escale = 1, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1629,6 +1738,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.17869 scale_factor=1.2778 extra_smear_width=0.142143 --> escale=1.06353 to get new pt 70.8064
 [JetSmear.cc] escale = 1.06353, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 70.8064 eta 1.63667 phi -2.58605 E 189.184, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1636,6 +1746,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.04214 to get new pt 69.3827
 [JetSmear.cc] escale = 1.04214, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 69.3827 eta 1.63667 phi -2.58605 E 185.38, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1643,6 +1754,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=0.446927 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=1.04214 to get new pt 69.3827
 [JetSmear.cc] escale = 1.04214, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 69.3827 eta 1.63667 phi -2.58605 E 185.38, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1650,6 +1762,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECCentral: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1
@@ -1657,6 +1770,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.33 eta=0.621976
   JERCentral: Jet has pt=127.33 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100663 scale_factor=1.1815 extra_smear_width=0.0633412 --> escale=1.00691 to get new pt 128.21
 [JetSmear.cc] escale = 1.00691, Jet Pt 127.33 eta 0.621976 phi 1.07807 E 154.797, New Pt 128.21 eta 0.621976 phi 1.07807 E 155.867, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECCentral: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1
@@ -1664,6 +1778,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=68.4791 eta=1.63172
   JERCentral: Jet has pt=68.4791 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.176332 scale_factor=1.1307 extra_smear_width=0.0930531 --> escale=1.03446 to get new pt 70.8387
 [JetSmear.cc] escale = 1.03446, Jet Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, New Pt 70.8387 eta 1.63172 phi -2.5852 E 188.413, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECDown01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 0.993768
@@ -1671,6 +1786,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=236.909 eta=-0.139126
   JERCentral: Jet has pt=236.909 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=238.665
 [JetSmear.cc] Jet Pt 236.909 eta -0.139126 phi -2.11453 E 239.652, New Pt 238.665 eta -0.139126 phi -2.11453 E 241.429, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECUp01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1.00623
@@ -1678,6 +1794,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.88 eta=-0.139126
   JERCentral: Jet has pt=239.88 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.062
 [JetSmear.cc] Jet Pt 239.88 eta -0.139126 phi -2.11453 E 242.658, New Pt 242.062 eta -0.139126 phi -2.11453 E 244.865, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1685,6 +1802,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.059
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.059 eta -0.139126 phi -2.11453 E 242.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1692,6 +1810,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=240.669
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.669 eta -0.139126 phi -2.11453 E 243.456, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1699,6 +1818,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -1706,6 +1826,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECDown01sigma: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 0.991798
@@ -1713,6 +1834,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.286 eta=0.621976
   JERCentral: Jet has pt=126.286 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.101002 scale_factor=1.1815 extra_smear_width=0.0635545 --> escale=1.00693 to get new pt 127.162
 [JetSmear.cc] escale = 1.00693, Jet Pt 126.286 eta 0.621976 phi 1.07807 E 153.528, New Pt 127.162 eta 0.621976 phi 1.07807 E 154.592, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECUp01sigma: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1.0082
@@ -1720,6 +1842,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=128.375 eta=0.621976
   JERCentral: Jet has pt=128.375 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100329 scale_factor=1.1815 extra_smear_width=0.0631307 --> escale=1.00689 to get new pt 129.259
 [JetSmear.cc] escale = 1.00689, Jet Pt 128.375 eta 0.621976 phi 1.07807 E 156.067, New Pt 129.259 eta 0.621976 phi 1.07807 E 157.142, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECCentral: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1
@@ -1727,6 +1850,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=127.33 eta=0.621976
   JERDown01sigma: Jet has pt=127.33 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100663 scale_factor=1.1332 extra_smear_width=0.0536585 --> escale=1.00585 to get new pt 128.076
 [JetSmear.cc] escale = 1.00585, Jet Pt 127.33 eta 0.621976 phi 1.07807 E 154.797, New Pt 128.076 eta 0.621976 phi 1.07807 E 155.703, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECCentral: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1
@@ -1734,6 +1858,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=127.33 eta=0.621976
   JERUp01sigma: Jet has pt=127.33 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100663 scale_factor=1.2299 extra_smear_width=0.0720747 --> escale=1.00786 to get new pt 128.332
 [JetSmear.cc] escale = 1.00786, Jet Pt 127.33 eta 0.621976 phi 1.07807 E 154.797, New Pt 128.332 eta 0.621976 phi 1.07807 E 156.015, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECCentral: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1
@@ -1741,6 +1866,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.33 eta=0.621976
   JERCentral: Jet has pt=127.33 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100663 scale_factor=1.1815 extra_smear_width=0.0633412 --> escale=1.00691 to get new pt 128.21
 [JetSmear.cc] escale = 1.00691, Jet Pt 127.33 eta 0.621976 phi 1.07807 E 154.797, New Pt 128.21 eta 0.621976 phi 1.07807 E 155.867, 
+
  DOING JEC! We get this jec from the corrector: 1.00263
     ... previous jec was: 1.00263
   JECCentral: Jet has pt= 127.33 eta=0.621976 and we apply a multiplicative correction of 1
@@ -1748,6 +1874,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.33 eta=0.621976
   JERCentral: Jet has pt=127.33 eta=0.621976 NO GEN MATCH  rnd=0.109116 r=0.100663 scale_factor=1.1815 extra_smear_width=0.0633412 --> escale=1.00691 to get new pt 128.21
 [JetSmear.cc] escale = 1.00691, Jet Pt 127.33 eta 0.621976 phi 1.07807 E 154.797, New Pt 128.21 eta 0.621976 phi 1.07807 E 155.867, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECDown01sigma: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 0.986731
@@ -1755,6 +1882,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.5705 eta=1.63172
   JERCentral: Jet has pt=67.5705 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.177445 scale_factor=1.1307 extra_smear_width=0.0936403 --> escale=1.03467 to get new pt 69.9134
 [JetSmear.cc] escale = 1.03467, Jet Pt 67.5705 eta 1.63172 phi -2.5852 E 179.72, New Pt 69.9134 eta 1.63172 phi -2.5852 E 185.952, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECUp01sigma: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1.01327
@@ -1762,6 +1890,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=69.3878 eta=1.63172
   JERCentral: Jet has pt=69.3878 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.175243 scale_factor=1.1307 extra_smear_width=0.0924785 --> escale=1.03424 to get new pt 71.7639
 [JetSmear.cc] escale = 1.03424, Jet Pt 69.3878 eta 1.63172 phi -2.5852 E 184.554, New Pt 71.7639 eta 1.63172 phi -2.5852 E 190.874, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECCentral: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1
@@ -1769,6 +1898,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=68.4791 eta=1.63172
   JERDown01sigma: Jet has pt=68.4791 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.176332 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 68.4791
 [JetSmear.cc] escale = 1, Jet Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, New Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECCentral: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1
@@ -1776,6 +1906,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=68.4791 eta=1.63172
   JERUp01sigma: Jet has pt=68.4791 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.176332 scale_factor=1.2778 extra_smear_width=0.140267 --> escale=1.05194 to get new pt 72.0359
 [JetSmear.cc] escale = 1.05194, Jet Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, New Pt 72.0359 eta 1.63172 phi -2.5852 E 191.597, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECCentral: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1
@@ -1783,6 +1914,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=68.4791 eta=1.63172
   JERCentral: Jet has pt=68.4791 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.176332 scale_factor=1.1307 extra_smear_width=0.0930531 --> escale=1.03446 to get new pt 70.8387
 [JetSmear.cc] escale = 1.03446, Jet Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, New Pt 70.8387 eta 1.63172 phi -2.5852 E 188.413, 
+
  DOING JEC! We get this jec from the corrector: 1.0671
     ... previous jec was: 1.0671
   JECCentral: Jet has pt= 68.4791 eta=1.63172 and we apply a multiplicative correction of 1
@@ -1790,6 +1922,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=68.4791 eta=1.63172
   JERCentral: Jet has pt=68.4791 eta=1.63172 NO GEN MATCH  rnd=0.370291 r=0.176332 scale_factor=1.1307 extra_smear_width=0.0930531 --> escale=1.03446 to get new pt 70.8387
 [JetSmear.cc] escale = 1.03446, Jet Pt 68.4791 eta 1.63172 phi -2.5852 E 182.137, New Pt 70.8387 eta 1.63172 phi -2.5852 E 188.413, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECCentral: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1
@@ -1797,6 +1930,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.652 eta=-0.138689
   JERCentral: Jet has pt=241.652 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.087
 [JetSmear.cc] Jet Pt 241.652 eta -0.138689 phi -2.1153 E 244.575, New Pt 244.087 eta -0.138689 phi -2.1153 E 247.04, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1804,6 +1938,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.05546 to get new pt 133.254
 [JetSmear.cc] escale = 1.05546, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 133.254 eta 0.622308 phi 1.07859 E 162.031, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1811,6 +1946,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.935703 to get new pt 62.2962
 [JetSmear.cc] escale = 0.935703, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 62.2962 eta 1.63667 phi -2.58605 E 166.446, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECDown01sigma: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 0.993806
@@ -1818,6 +1954,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.155 eta=-0.138689
   JERCentral: Jet has pt=240.155 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.376
 [JetSmear.cc] Jet Pt 240.155 eta -0.138689 phi -2.1153 E 243.06, New Pt 242.376 eta -0.138689 phi -2.1153 E 245.308, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECUp01sigma: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1.00619
@@ -1825,6 +1962,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=243.148 eta=-0.138689
   JERCentral: Jet has pt=243.148 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=245.799
 [JetSmear.cc] Jet Pt 243.148 eta -0.138689 phi -2.1153 E 246.09, New Pt 245.799 eta -0.138689 phi -2.1153 E 248.772, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECCentral: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1
@@ -1832,6 +1970,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=241.652 eta=-0.138689
   JERDown01sigma: Jet has pt=241.652 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=243.71
 [JetSmear.cc] Jet Pt 241.652 eta -0.138689 phi -2.1153 E 244.575, New Pt 243.71 eta -0.138689 phi -2.1153 E 246.658, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECCentral: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1
@@ -1839,6 +1978,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=241.652 eta=-0.138689
   JERUp01sigma: Jet has pt=241.652 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=244.465
 [JetSmear.cc] Jet Pt 241.652 eta -0.138689 phi -2.1153 E 244.575, New Pt 244.465 eta -0.138689 phi -2.1153 E 247.423, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECCentral: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1
@@ -1846,6 +1986,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.652 eta=-0.138689
   JERCentral: Jet has pt=241.652 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.087
 [JetSmear.cc] Jet Pt 241.652 eta -0.138689 phi -2.1153 E 244.575, New Pt 244.087 eta -0.138689 phi -2.1153 E 247.04, 
+
  DOING JEC! We get this jec from the corrector: 1.03434
     ... previous jec was: 1.03434
   JECCentral: Jet has pt= 241.652 eta=-0.138689 and we apply a multiplicative correction of 1
@@ -1853,6 +1994,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.652 eta=-0.138689
   JERCentral: Jet has pt=241.652 eta=-0.138689 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.087
 [JetSmear.cc] Jet Pt 241.652 eta -0.138689 phi -2.1153 E 244.575, New Pt 244.087 eta -0.138689 phi -2.1153 E 247.04, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -1860,6 +2002,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=1.05564 to get new pt 132.181
 [JetSmear.cc] escale = 1.05564, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 132.181 eta 0.622308 phi 1.07859 E 160.726, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -1867,6 +2010,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=1.05527 to get new pt 134.328
 [JetSmear.cc] escale = 1.05527, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 134.328 eta 0.622308 phi 1.07859 E 163.336, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1874,6 +2018,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=1.04698 to get new pt 132.184
 [JetSmear.cc] escale = 1.04698, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 132.184 eta 0.622308 phi 1.07859 E 160.729, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1881,6 +2026,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=1.0631 to get new pt 134.22
 [JetSmear.cc] escale = 1.0631, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 134.22 eta 0.622308 phi 1.07859 E 163.205, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1888,6 +2034,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.05546 to get new pt 133.254
 [JetSmear.cc] escale = 1.05546, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 133.254 eta 0.622308 phi 1.07859 E 162.031, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1895,6 +2042,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.872482 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.05546 to get new pt 133.254
 [JetSmear.cc] escale = 1.05546, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 133.254 eta 0.622308 phi 1.07859 E 162.031, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECDown01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 0.986477
@@ -1902,6 +2050,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.6766 eta=1.63667
   JERCentral: Jet has pt=65.6766 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.179846 scale_factor=1.1307 extra_smear_width=0.0949071 --> escale=0.935288 to get new pt 61.4265
 [JetSmear.cc] escale = 0.935288, Jet Pt 65.6766 eta 1.63667 phi -2.58605 E 175.478, New Pt 61.4265 eta 1.63667 phi -2.58605 E 164.123, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECUp01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1.01352
@@ -1909,6 +2058,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.4772 eta=1.63667
   JERCentral: Jet has pt=67.4772 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.177561 scale_factor=1.1307 extra_smear_width=0.0937013 --> escale=0.93611 to get new pt 63.1661
 [JetSmear.cc] escale = 0.93611, Jet Pt 67.4772 eta 1.63667 phi -2.58605 E 180.289, New Pt 63.1661 eta 1.63667 phi -2.58605 E 168.77, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1916,6 +2066,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.17869 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.5769
 [JetSmear.cc] escale = 1, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, 
+
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1923,6 +2075,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.17869 scale_factor=1.2778 extra_smear_width=0.142143 --> escale=0.90308 to get new pt 60.1243
 [JetSmear.cc] escale = 0.90308, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 60.1243 eta 1.63667 phi -2.58605 E 160.643, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1930,6 +2083,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.935703 to get new pt 62.2962
 [JetSmear.cc] escale = 0.935703, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 62.2962 eta 1.63667 phi -2.58605 E 166.446, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1937,6 +2091,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-0.681849 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.935703 to get new pt 62.2962
 [JetSmear.cc] escale = 0.935703, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 62.2962 eta 1.63667 phi -2.58605 E 166.446, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECCentral: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1
@@ -1944,6 +2099,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.079 eta=-0.13823
   JERCentral: Jet has pt=239.079 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.146
 [JetSmear.cc] Jet Pt 239.079 eta -0.13823 phi -2.11467 E 241.867, New Pt 241.146 eta -0.13823 phi -2.11467 E 243.959, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -1951,6 +2107,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.952771 to get new pt 120.29
 [JetSmear.cc] escale = 0.952771, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 120.29 eta 0.622308 phi 1.07859 E 146.267, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -1958,6 +2115,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.866485 to get new pt 57.6879
 [JetSmear.cc] escale = 0.866485, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 57.6879 eta 1.63667 phi -2.58605 E 154.133, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECDown01sigma: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 0.993776
@@ -1965,6 +2123,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=237.591 eta=-0.13823
   JERCentral: Jet has pt=237.591 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=239.445
 [JetSmear.cc] Jet Pt 237.591 eta -0.13823 phi -2.11467 E 240.362, New Pt 239.445 eta -0.13823 phi -2.11467 E 242.238, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECUp01sigma: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1.00622
@@ -1972,6 +2131,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.567 eta=-0.13823
   JERCentral: Jet has pt=240.567 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.847
 [JetSmear.cc] Jet Pt 240.567 eta -0.13823 phi -2.11467 E 243.373, New Pt 242.847 eta -0.13823 phi -2.11467 E 245.68, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECCentral: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1
@@ -1979,6 +2139,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=239.079 eta=-0.13823
   JERDown01sigma: Jet has pt=239.079 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.826
 [JetSmear.cc] Jet Pt 239.079 eta -0.13823 phi -2.11467 E 241.867, New Pt 240.826 eta -0.13823 phi -2.11467 E 243.634, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECCentral: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1
@@ -1986,6 +2147,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=239.079 eta=-0.13823
   JERUp01sigma: Jet has pt=239.079 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=241.467
 [JetSmear.cc] Jet Pt 239.079 eta -0.13823 phi -2.11467 E 241.867, New Pt 241.467 eta -0.13823 phi -2.11467 E 244.283, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECCentral: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1
@@ -1993,6 +2155,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.079 eta=-0.13823
   JERCentral: Jet has pt=239.079 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.146
 [JetSmear.cc] Jet Pt 239.079 eta -0.13823 phi -2.11467 E 241.867, New Pt 241.146 eta -0.13823 phi -2.11467 E 243.959, 
+
  DOING JEC! We get this jec from the corrector: 1.03435
     ... previous jec was: 1.03435
   JECCentral: Jet has pt= 239.079 eta=-0.13823 and we apply a multiplicative correction of 1
@@ -2000,6 +2163,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.079 eta=-0.13823
   JERCentral: Jet has pt=239.079 eta=-0.13823 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.146
 [JetSmear.cc] Jet Pt 239.079 eta -0.13823 phi -2.11467 E 241.867, New Pt 241.146 eta -0.13823 phi -2.11467 E 243.959, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -2007,6 +2171,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=0.952611 to get new pt 119.28
 [JetSmear.cc] escale = 0.952611, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 119.28 eta 0.622308 phi 1.07859 E 145.039, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -2014,6 +2179,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=0.952929 to get new pt 121.3
 [JetSmear.cc] escale = 0.952929, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 121.3 eta 0.622308 phi 1.07859 E 147.495, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2021,6 +2187,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=0.959991 to get new pt 121.202
 [JetSmear.cc] escale = 0.959991, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 121.202 eta 0.622308 phi 1.07859 E 147.375, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2028,6 +2195,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=0.946259 to get new pt 119.468
 [JetSmear.cc] escale = 0.946259, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 119.468 eta 0.622308 phi 1.07859 E 145.267, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2035,6 +2203,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.952771 to get new pt 120.29
 [JetSmear.cc] escale = 0.952771, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 120.29 eta 0.622308 phi 1.07859 E 146.267, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2042,6 +2211,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-0.743046 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.952771 to get new pt 120.29
 [JetSmear.cc] escale = 0.952771, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 120.29 eta 0.622308 phi 1.07859 E 146.267, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECDown01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 0.986477
@@ -2049,6 +2219,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.6766 eta=1.63667
   JERCentral: Jet has pt=65.6766 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.179846 scale_factor=1.1307 extra_smear_width=0.0949071 --> escale=0.865621 to get new pt 56.8511
 [JetSmear.cc] escale = 0.865621, Jet Pt 65.6766 eta 1.63667 phi -2.58605 E 175.478, New Pt 56.8511 eta 1.63667 phi -2.58605 E 151.898, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECUp01sigma: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1.01352
@@ -2056,6 +2227,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.4772 eta=1.63667
   JERCentral: Jet has pt=67.4772 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.177561 scale_factor=1.1307 extra_smear_width=0.0937013 --> escale=0.867329 to get new pt 58.5249
 [JetSmear.cc] escale = 0.867329, Jet Pt 67.4772 eta 1.63667 phi -2.58605 E 180.289, New Pt 58.5249 eta 1.63667 phi -2.58605 E 156.37, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -2063,6 +2235,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667
   JERDown01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.17869 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.5769
 [JetSmear.cc] escale = 1, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -2070,6 +2243,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667
   JERUp01sigma: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.17869 scale_factor=1.2778 extra_smear_width=0.142143 --> escale=0.79874 to get new pt 53.1777
 [JetSmear.cc] escale = 0.79874, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 53.1777 eta 1.63667 phi -2.58605 E 142.083, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -2077,6 +2251,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.866485 to get new pt 57.6879
 [JetSmear.cc] escale = 0.866485, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 57.6879 eta 1.63667 phi -2.58605 E 154.133, 
+
  DOING JEC! We get this jec from the corrector: 1.06718
     ... previous jec was: 1.06718
   JECCentral: Jet has pt= 66.5769 eta=1.63667 and we apply a multiplicative correction of 1
@@ -2084,6 +2259,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.5769 eta=1.63667
   JERCentral: Jet has pt=66.5769 eta=1.63667 NO GEN MATCH  rnd=-1.4159 r=0.17869 scale_factor=1.1307 extra_smear_width=0.0942975 --> escale=0.866485 to get new pt 57.6879
 [JetSmear.cc] escale = 0.866485, Jet Pt 66.5769 eta 1.63667 phi -2.58605 E 177.884, New Pt 57.6879 eta 1.63667 phi -2.58605 E 154.133, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECCentral: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1
@@ -2091,6 +2267,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.554 eta=-0.138811
   JERCentral: Jet has pt=238.554 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.546
 [JetSmear.cc] Jet Pt 238.554 eta -0.138811 phi -2.11468 E 241.359, New Pt 240.546 eta -0.138811 phi -2.11468 E 243.375, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2098,6 +2275,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.03535 to get new pt 130.716
 [JetSmear.cc] escale = 1.03535, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 130.716 eta 0.622308 phi 1.07859 E 158.944, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECCentral: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1
@@ -2105,6 +2283,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.8582 eta=1.64015
   JERCentral: Jet has pt=67.8582 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.17709 scale_factor=1.1307 extra_smear_width=0.093453 --> escale=1.00054 to get new pt 67.8949
 [JetSmear.cc] escale = 1.00054, Jet Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, New Pt 67.8949 eta 1.64015 phi -2.58424 E 181.995, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECCentral: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1
@@ -2112,6 +2291,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=15.6276 eta=2.58065
   JERCentral: Jet has pt=15.6276 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.754924 scale_factor=1.9909 extra_smear_width=1.29963 --> escale=-1.72155 to get new pt -26.9037
 [JetSmear.cc] escale = -1.72155, Jet Pt 15.6276 eta 2.58065 phi 0.601943 E 103.882, New Pt 26.9037 eta -2.58065 phi -2.53965 E -178.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECDown01sigma: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 0.99377
@@ -2119,6 +2299,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=237.067 eta=-0.138811
   JERCentral: Jet has pt=237.067 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=238.847
 [JetSmear.cc] Jet Pt 237.067 eta -0.138811 phi -2.11468 E 239.856, New Pt 238.847 eta -0.138811 phi -2.11468 E 241.656, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECUp01sigma: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1.00623
@@ -2126,6 +2307,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.04 eta=-0.138811
   JERCentral: Jet has pt=240.04 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.245
 [JetSmear.cc] Jet Pt 240.04 eta -0.138811 phi -2.11468 E 242.863, New Pt 242.245 eta -0.138811 phi -2.11468 E 245.094, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECCentral: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1
@@ -2133,6 +2315,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=238.554 eta=-0.138811
   JERDown01sigma: Jet has pt=238.554 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.237
 [JetSmear.cc] Jet Pt 238.554 eta -0.138811 phi -2.11468 E 241.359, New Pt 240.237 eta -0.138811 phi -2.11468 E 243.063, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECCentral: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1
@@ -2140,6 +2323,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=238.554 eta=-0.138811
   JERUp01sigma: Jet has pt=238.554 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=240.855
 [JetSmear.cc] Jet Pt 238.554 eta -0.138811 phi -2.11468 E 241.359, New Pt 240.855 eta -0.138811 phi -2.11468 E 243.688, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECCentral: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1
@@ -2147,6 +2331,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.554 eta=-0.138811
   JERCentral: Jet has pt=238.554 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.546
 [JetSmear.cc] Jet Pt 238.554 eta -0.138811 phi -2.11468 E 241.359, New Pt 240.546 eta -0.138811 phi -2.11468 E 243.375, 
+
  DOING JEC! We get this jec from the corrector: 1.03392
     ... previous jec was: 1.03392
   JECCentral: Jet has pt= 238.554 eta=-0.138811 and we apply a multiplicative correction of 1
@@ -2154,6 +2339,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.554 eta=-0.138811
   JERCentral: Jet has pt=238.554 eta=-0.138811 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.546
 [JetSmear.cc] Jet Pt 238.554 eta -0.138811 phi -2.11468 E 241.359, New Pt 240.546 eta -0.138811 phi -2.11468 E 243.375, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -2161,6 +2347,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=1.03547 to get new pt 129.655
 [JetSmear.cc] escale = 1.03547, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 129.655 eta 0.622308 phi 1.07859 E 157.654, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -2168,6 +2355,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=1.03523 to get new pt 131.777
 [JetSmear.cc] escale = 1.03523, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 131.777 eta 0.622308 phi 1.07859 E 160.234, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2175,6 +2363,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=1.02995 to get new pt 130.034
 [JetSmear.cc] escale = 1.02995, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 130.034 eta 0.622308 phi 1.07859 E 158.115, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2182,6 +2371,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=1.04022 to get new pt 131.331
 [JetSmear.cc] escale = 1.04022, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 131.331 eta 0.622308 phi 1.07859 E 159.692, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2189,6 +2379,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.03535 to get new pt 130.716
 [JetSmear.cc] escale = 1.03535, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 130.716 eta 0.622308 phi 1.07859 E 158.944, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2196,6 +2387,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.556152 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.03535 to get new pt 130.716
 [JetSmear.cc] escale = 1.03535, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 130.716 eta 0.622308 phi 1.07859 E 158.944, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECDown01sigma: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 0.986648
@@ -2203,6 +2395,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.9522 eta=1.64015
   JERCentral: Jet has pt=66.9522 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.178217 scale_factor=1.1307 extra_smear_width=0.0940474 --> escale=1.00054 to get new pt 66.9886
 [JetSmear.cc] escale = 1.00054, Jet Pt 66.9522 eta 1.64015 phi -2.58424 E 179.468, New Pt 66.9886 eta 1.64015 phi -2.58424 E 179.565, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECUp01sigma: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1.01335
@@ -2210,6 +2403,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=68.7643 eta=1.64015
   JERCentral: Jet has pt=68.7643 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.175988 scale_factor=1.1307 extra_smear_width=0.0928714 --> escale=1.00054 to get new pt 68.8012
 [JetSmear.cc] escale = 1.00054, Jet Pt 68.7643 eta 1.64015 phi -2.58424 E 184.325, New Pt 68.8012 eta 1.64015 phi -2.58424 E 184.424, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECCentral: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1
@@ -2217,6 +2411,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=67.8582 eta=1.64015
   JERDown01sigma: Jet has pt=67.8582 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.17709 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 67.8582
 [JetSmear.cc] escale = 1, Jet Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, New Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECCentral: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1
@@ -2224,6 +2419,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=67.8582 eta=1.64015
   JERUp01sigma: Jet has pt=67.8582 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.17709 scale_factor=1.2778 extra_smear_width=0.14087 --> escale=1.00081 to get new pt 67.9135
 [JetSmear.cc] escale = 1.00081, Jet Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, New Pt 67.9135 eta 1.64015 phi -2.58424 E 182.045, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECCentral: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1
@@ -2231,6 +2427,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.8582 eta=1.64015
   JERCentral: Jet has pt=67.8582 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.17709 scale_factor=1.1307 extra_smear_width=0.093453 --> escale=1.00054 to get new pt 67.8949
 [JetSmear.cc] escale = 1.00054, Jet Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, New Pt 67.8949 eta 1.64015 phi -2.58424 E 181.995, 
+
  DOING JEC! We get this jec from the corrector: 1.06746
     ... previous jec was: 1.06746
   JECCentral: Jet has pt= 67.8582 eta=1.64015 and we apply a multiplicative correction of 1
@@ -2238,6 +2435,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.8582 eta=1.64015
   JERCentral: Jet has pt=67.8582 eta=1.64015 NO GEN MATCH  rnd=0.00578478 r=0.17709 scale_factor=1.1307 extra_smear_width=0.093453 --> escale=1.00054 to get new pt 67.8949
 [JetSmear.cc] escale = 1.00054, Jet Pt 67.8582 eta 1.64015 phi -2.58424 E 181.896, New Pt 67.8949 eta 1.64015 phi -2.58424 E 181.995, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECDown01sigma: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 0.890258
@@ -2245,6 +2443,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=13.9126 eta=2.58065
   JERCentral: Jet has pt=13.9126 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.786367 scale_factor=1.9909 extra_smear_width=1.35376 --> escale=-1.8349 to get new pt -25.5283
 [JetSmear.cc] escale = -1.8349, Jet Pt 13.9126 eta 2.58065 phi 0.601943 E 92.4817, New Pt 25.5283 eta -2.58065 phi -2.53965 E -169.695, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECUp01sigma: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1.10974
@@ -2252,6 +2451,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=17.3427 eta=2.58065
   JERCentral: Jet has pt=17.3427 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.680639 scale_factor=1.9909 extra_smear_width=1.17174 --> escale=-1.45375 to get new pt -25.2118
 [JetSmear.cc] escale = -1.45375, Jet Pt 17.3427 eta 2.58065 phi 0.601943 E 115.282, New Pt 25.2118 eta -2.58065 phi -2.53965 E -167.591, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECCentral: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1
@@ -2259,6 +2459,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=15.6276 eta=2.58065
   JERDown01sigma: Jet has pt=15.6276 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.754924 scale_factor=1.4225 extra_smear_width=0.763746 --> escale=-0.599357 to get new pt -9.36654
 [JetSmear.cc] escale = -0.599357, Jet Pt 15.6276 eta 2.58065 phi 0.601943 E 103.882, New Pt 9.36654 eta -2.58065 phi -2.53965 E -62.2623, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECCentral: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1
@@ -2266,6 +2467,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=15.6276 eta=2.58065
   JERUp01sigma: Jet has pt=15.6276 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.754924 scale_factor=2.5593 extra_smear_width=1.77849 --> escale=-2.72432 to get new pt -42.5748
 [JetSmear.cc] escale = -2.72432, Jet Pt 15.6276 eta 2.58065 phi 0.601943 E 103.882, New Pt 42.5748 eta -2.58065 phi -2.53965 E -283.008, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECCentral: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1
@@ -2273,6 +2475,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=15.6276 eta=2.58065
   JERCentral: Jet has pt=15.6276 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.754924 scale_factor=1.9909 extra_smear_width=1.29963 --> escale=-1.72155 to get new pt -26.9037
 [JetSmear.cc] escale = -1.72155, Jet Pt 15.6276 eta 2.58065 phi 0.601943 E 103.882, New Pt 26.9037 eta -2.58065 phi -2.53965 E -178.838, 
+
  DOING JEC! We get this jec from the corrector: 0.824827
     ... previous jec was: 0.824827
   JECCentral: Jet has pt= 15.6276 eta=2.58065 and we apply a multiplicative correction of 1
@@ -2280,6 +2483,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=15.6276 eta=2.58065
   JERCentral: Jet has pt=15.6276 eta=2.58065 NO GEN MATCH  rnd=-2.0941 r=0.754924 scale_factor=1.9909 extra_smear_width=1.29963 --> escale=-1.72155 to get new pt -26.9037
 [JetSmear.cc] escale = -1.72155, Jet Pt 15.6276 eta 2.58065 phi 0.601943 E 103.882, New Pt 26.9037 eta -2.58065 phi -2.53965 E -178.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2287,6 +2491,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2294,6 +2499,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.0133 to get new pt 127.932
 [JetSmear.cc] escale = 1.0133, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 127.932 eta 0.622308 phi 1.07859 E 155.559, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECCentral: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1
@@ -2301,6 +2507,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8211 eta=1.63642
   JERCentral: Jet has pt=66.8211 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.178382 scale_factor=1.1307 extra_smear_width=0.0941345 --> escale=1.09722 to get new pt 73.3172
 [JetSmear.cc] escale = 1.09722, Jet Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, New Pt 73.3172 eta 1.63642 phi -2.58615 E 195.867, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECDown01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 0.993768
@@ -2308,6 +2515,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=236.909 eta=-0.139126
   JERCentral: Jet has pt=236.909 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=238.665
 [JetSmear.cc] Jet Pt 236.909 eta -0.139126 phi -2.11453 E 239.652, New Pt 238.665 eta -0.139126 phi -2.11453 E 241.429, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECUp01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1.00623
@@ -2315,6 +2523,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.88 eta=-0.139126
   JERCentral: Jet has pt=239.88 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.062
 [JetSmear.cc] Jet Pt 239.88 eta -0.139126 phi -2.11453 E 242.658, New Pt 242.062 eta -0.139126 phi -2.11453 E 244.865, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2322,6 +2531,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.059
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.059 eta -0.139126 phi -2.11453 E 242.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2329,6 +2539,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=240.669
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.669 eta -0.139126 phi -2.11453 E 243.456, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2336,6 +2547,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2343,6 +2555,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -2350,6 +2563,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=1.01334 to get new pt 126.885
 [JetSmear.cc] escale = 1.01334, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 126.885 eta 0.622308 phi 1.07859 E 154.285, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -2357,6 +2571,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=1.01325 to get new pt 128.979
 [JetSmear.cc] escale = 1.01325, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 128.979 eta 0.622308 phi 1.07859 E 156.832, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2364,6 +2579,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=1.01126 to get new pt 127.675
 [JetSmear.cc] escale = 1.01126, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 127.675 eta 0.622308 phi 1.07859 E 155.247, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2371,6 +2587,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=1.01513 to get new pt 128.163
 [JetSmear.cc] escale = 1.01513, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 128.163 eta 0.622308 phi 1.07859 E 155.84, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2378,6 +2595,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.0133 to get new pt 127.932
 [JetSmear.cc] escale = 1.0133, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 127.932 eta 0.622308 phi 1.07859 E 155.559, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2385,6 +2603,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=0.209189 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=1.0133 to get new pt 127.932
 [JetSmear.cc] escale = 1.0133, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 127.932 eta 0.622308 phi 1.07859 E 155.559, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECDown01sigma: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 0.98651
@@ -2392,6 +2611,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.9196 eta=1.63642
   JERCentral: Jet has pt=65.9196 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.179531 scale_factor=1.1307 extra_smear_width=0.0947412 --> escale=1.09784 to get new pt 72.3694
 [JetSmear.cc] escale = 1.09784, Jet Pt 65.9196 eta 1.63642 phi -2.58615 E 176.105, New Pt 72.3694 eta 1.63642 phi -2.58615 E 193.335, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECUp01sigma: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1.01349
@@ -2399,6 +2619,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.7226 eta=1.63642
   JERCentral: Jet has pt=67.7226 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.177257 scale_factor=1.1307 extra_smear_width=0.0935411 --> escale=1.0966 to get new pt 74.2648
 [JetSmear.cc] escale = 1.0966, Jet Pt 67.7226 eta 1.63642 phi -2.58615 E 180.921, New Pt 74.2648 eta 1.63642 phi -2.58615 E 198.399, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECCentral: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1
@@ -2406,6 +2627,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.8211 eta=1.63642
   JERDown01sigma: Jet has pt=66.8211 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.178382 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.8211
 [JetSmear.cc] escale = 1, Jet Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, New Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECCentral: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1
@@ -2413,6 +2635,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.8211 eta=1.63642
   JERUp01sigma: Jet has pt=66.8211 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.178382 scale_factor=1.2778 extra_smear_width=0.141897 --> escale=1.14654 to get new pt 76.6132
 [JetSmear.cc] escale = 1.14654, Jet Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, New Pt 76.6132 eta 1.63642 phi -2.58615 E 204.673, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECCentral: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1
@@ -2420,6 +2643,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8211 eta=1.63642
   JERCentral: Jet has pt=66.8211 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.178382 scale_factor=1.1307 extra_smear_width=0.0941345 --> escale=1.09722 to get new pt 73.3172
 [JetSmear.cc] escale = 1.09722, Jet Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, New Pt 73.3172 eta 1.63642 phi -2.58615 E 195.867, 
+
  DOING JEC! We get this jec from the corrector: 1.06719
     ... previous jec was: 1.06719
   JECCentral: Jet has pt= 66.8211 eta=1.63642 and we apply a multiplicative correction of 1
@@ -2427,6 +2651,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8211 eta=1.63642
   JERCentral: Jet has pt=66.8211 eta=1.63642 NO GEN MATCH  rnd=1.03274 r=0.178382 scale_factor=1.1307 extra_smear_width=0.0941345 --> escale=1.09722 to get new pt 73.3172
 [JetSmear.cc] escale = 1.09722, Jet Pt 66.8211 eta 1.63642 phi -2.58615 E 178.513, New Pt 73.3172 eta 1.63642 phi -2.58615 E 195.867, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECCentral: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1
@@ -2434,6 +2659,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.563 eta=-0.14206
   JERCentral: Jet has pt=240.563 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.843
 [JetSmear.cc] Jet Pt 240.563 eta -0.14206 phi -2.11216 E 243.619, New Pt 242.843 eta -0.14206 phi -2.11216 E 245.928, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2441,6 +2667,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.913897 to get new pt 115.382
 [JetSmear.cc] escale = 0.913897, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 115.382 eta 0.622308 phi 1.07859 E 140.299, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECCentral: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1
@@ -2448,6 +2675,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8924 eta=1.63761
   JERCentral: Jet has pt=66.8924 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.178292 scale_factor=1.1307 extra_smear_width=0.0940871 --> escale=0.924563 to get new pt 61.8462
 [JetSmear.cc] escale = 0.924563, Jet Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, New Pt 61.8462 eta 1.63761 phi -2.58472 E 165.403, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECDown01sigma: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 0.993793
@@ -2455,6 +2683,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.07 eta=-0.14206
   JERCentral: Jet has pt=239.07 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=241.136
 [JetSmear.cc] Jet Pt 239.07 eta -0.14206 phi -2.11216 E 242.107, New Pt 241.136 eta -0.14206 phi -2.11216 E 244.199, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECUp01sigma: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1.00621
@@ -2462,6 +2691,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=242.056 eta=-0.14206
   JERCentral: Jet has pt=242.056 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=244.55
 [JetSmear.cc] Jet Pt 242.056 eta -0.14206 phi -2.11216 E 245.131, New Pt 244.55 eta -0.14206 phi -2.11216 E 247.657, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECCentral: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1
@@ -2469,6 +2699,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=240.563 eta=-0.14206
   JERDown01sigma: Jet has pt=240.563 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=242.49
 [JetSmear.cc] Jet Pt 240.563 eta -0.14206 phi -2.11216 E 243.619, New Pt 242.49 eta -0.14206 phi -2.11216 E 245.57, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECCentral: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1
@@ -2476,6 +2707,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=240.563 eta=-0.14206
   JERUp01sigma: Jet has pt=240.563 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=243.197
 [JetSmear.cc] Jet Pt 240.563 eta -0.14206 phi -2.11216 E 243.619, New Pt 243.197 eta -0.14206 phi -2.11216 E 246.286, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECCentral: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1
@@ -2483,6 +2715,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.563 eta=-0.14206
   JERCentral: Jet has pt=240.563 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.843
 [JetSmear.cc] Jet Pt 240.563 eta -0.14206 phi -2.11216 E 243.619, New Pt 242.843 eta -0.14206 phi -2.11216 E 245.928, 
+
  DOING JEC! We get this jec from the corrector: 1.03419
     ... previous jec was: 1.03419
   JECCentral: Jet has pt= 240.563 eta=-0.14206 and we apply a multiplicative correction of 1
@@ -2490,6 +2723,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=240.563 eta=-0.14206
   JERCentral: Jet has pt=240.563 eta=-0.14206 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.843
 [JetSmear.cc] Jet Pt 240.563 eta -0.14206 phi -2.11216 E 243.619, New Pt 242.843 eta -0.14206 phi -2.11216 E 245.928, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECDown01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 0.991771
@@ -2497,6 +2731,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=125.214 eta=0.622308
   JERCentral: Jet has pt=125.214 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101355 scale_factor=1.1815 extra_smear_width=0.0637766 --> escale=0.913606 to get new pt 114.396
 [JetSmear.cc] escale = 0.913606, Jet Pt 125.214 eta 0.622308 phi 1.07859 E 152.254, New Pt 114.396 eta 0.622308 phi 1.07859 E 139.1, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECUp01sigma: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1.00823
@@ -2504,6 +2739,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.292 eta=0.622308
   JERCentral: Jet has pt=127.292 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.100676 scale_factor=1.1815 extra_smear_width=0.063349 --> escale=0.914185 to get new pt 116.368
 [JetSmear.cc] escale = 0.914185, Jet Pt 127.292 eta 0.622308 phi 1.07859 E 154.781, New Pt 116.368 eta 0.622308 phi 1.07859 E 141.498, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2511,6 +2747,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=126.253 eta=0.622308
   JERDown01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101013 scale_factor=1.1332 extra_smear_width=0.053845 --> escale=0.927059 to get new pt 117.044
 [JetSmear.cc] escale = 0.927059, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 117.044 eta 0.622308 phi 1.07859 E 142.32, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2518,6 +2755,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=126.253 eta=0.622308
   JERUp01sigma: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101013 scale_factor=1.2299 extra_smear_width=0.0723252 --> escale=0.902025 to get new pt 113.883
 [JetSmear.cc] escale = 0.902025, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 113.883 eta 0.622308 phi 1.07859 E 138.477, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2525,6 +2763,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.913897 to get new pt 115.382
 [JetSmear.cc] escale = 0.913897, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 115.382 eta 0.622308 phi 1.07859 E 140.299, 
+
  DOING JEC! We get this jec from the corrector: 1.00123
     ... previous jec was: 1.00123
   JECCentral: Jet has pt= 126.253 eta=0.622308 and we apply a multiplicative correction of 1
@@ -2532,6 +2771,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=126.253 eta=0.622308
   JERCentral: Jet has pt=126.253 eta=0.622308 NO GEN MATCH  rnd=-1.35464 r=0.101013 scale_factor=1.1815 extra_smear_width=0.0635613 --> escale=0.913897 to get new pt 115.382
 [JetSmear.cc] escale = 0.913897, Jet Pt 126.253 eta 0.622308 phi 1.07859 E 153.517, New Pt 115.382 eta 0.622308 phi 1.07859 E 140.299, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECDown01sigma: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 0.986519
@@ -2539,6 +2779,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=65.9906 eta=1.63761
   JERCentral: Jet has pt=65.9906 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.17944 scale_factor=1.1307 extra_smear_width=0.0946929 --> escale=0.924077 to get new pt 60.9804
 [JetSmear.cc] escale = 0.924077, Jet Pt 65.9906 eta 1.63761 phi -2.58472 E 176.487, New Pt 60.9804 eta 1.63761 phi -2.58472 E 163.087, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECUp01sigma: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1.01348
@@ -2546,6 +2787,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=67.7942 eta=1.63761
   JERCentral: Jet has pt=67.7942 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.177169 scale_factor=1.1307 extra_smear_width=0.0934946 --> escale=0.925038 to get new pt 62.7122
 [JetSmear.cc] escale = 0.925038, Jet Pt 67.7942 eta 1.63761 phi -2.58472 E 181.31, New Pt 62.7122 eta 1.63761 phi -2.58472 E 167.719, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECCentral: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1
@@ -2553,6 +2795,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=66.8924 eta=1.63761
   JERDown01sigma: Jet has pt=66.8924 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.178292 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 66.8924
 [JetSmear.cc] escale = 1, Jet Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, New Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECCentral: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1
@@ -2560,6 +2803,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=66.8924 eta=1.63761
   JERUp01sigma: Jet has pt=66.8924 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.178292 scale_factor=1.2778 extra_smear_width=0.141826 --> escale=0.886287 to get new pt 59.2858
 [JetSmear.cc] escale = 0.886287, Jet Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, New Pt 59.2858 eta 1.63761 phi -2.58472 E 158.555, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECCentral: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1
@@ -2567,6 +2811,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8924 eta=1.63761
   JERCentral: Jet has pt=66.8924 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.178292 scale_factor=1.1307 extra_smear_width=0.0940871 --> escale=0.924563 to get new pt 61.8462
 [JetSmear.cc] escale = 0.924563, Jet Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, New Pt 61.8462 eta 1.63761 phi -2.58472 E 165.403, 
+
  DOING JEC! We get this jec from the corrector: 1.0672
     ... previous jec was: 1.0672
   JECCentral: Jet has pt= 66.8924 eta=1.63761 and we apply a multiplicative correction of 1
@@ -2574,6 +2819,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=66.8924 eta=1.63761
   JERCentral: Jet has pt=66.8924 eta=1.63761 NO GEN MATCH  rnd=-0.801782 r=0.178292 scale_factor=1.1307 extra_smear_width=0.0940871 --> escale=0.924563 to get new pt 61.8462
 [JetSmear.cc] escale = 0.924563, Jet Pt 66.8924 eta 1.63761 phi -2.58472 E 178.898, New Pt 61.8462 eta 1.63761 phi -2.58472 E 165.403, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2581,6 +2827,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECCentral: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1
@@ -2588,6 +2835,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=128.885 eta=0.622056
   JERCentral: Jet has pt=128.885 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100167 scale_factor=1.1815 extra_smear_width=0.0630288 --> escale=0.912567 to get new pt 117.616
 [JetSmear.cc] escale = 0.912567, Jet Pt 128.885 eta 0.622056 phi 1.08354 E 156.844, New Pt 117.616 eta 0.622056 phi 1.08354 E 143.13, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECCentral: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1
@@ -2595,6 +2843,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=69.2858 eta=1.63404
   JERCentral: Jet has pt=69.2858 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.175364 scale_factor=1.1307 extra_smear_width=0.0925424 --> escale=0.987117 to get new pt 68.3931
 [JetSmear.cc] escale = 0.987117, Jet Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, New Pt 68.3931 eta 1.63404 phi -2.58926 E 182.31, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECDown01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 0.993768
@@ -2602,6 +2851,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=236.909 eta=-0.139126
   JERCentral: Jet has pt=236.909 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=238.665
 [JetSmear.cc] Jet Pt 236.909 eta -0.139126 phi -2.11453 E 239.652, New Pt 238.665 eta -0.139126 phi -2.11453 E 241.429, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECUp01sigma: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1.00623
@@ -2609,6 +2859,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=239.88 eta=-0.139126
   JERCentral: Jet has pt=239.88 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=242.062
 [JetSmear.cc] Jet Pt 239.88 eta -0.139126 phi -2.11453 E 242.658, New Pt 242.062 eta -0.139126 phi -2.11453 E 244.865, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2616,6 +2867,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126
   JERDown01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=240.059
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.059 eta -0.139126 phi -2.11453 E 242.838, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2623,6 +2875,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126
   JERUp01sigma: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=240.669
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.669 eta -0.139126 phi -2.11453 E 243.456, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2630,6 +2883,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.03426
     ... previous jec was: 1.03426
   JECCentral: Jet has pt= 238.395 eta=-0.139126 and we apply a multiplicative correction of 1
@@ -2637,6 +2891,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=238.395 eta=-0.139126
   JERCentral: Jet has pt=238.395 eta=-0.139126 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=240.364
 [JetSmear.cc] Jet Pt 238.395 eta -0.139126 phi -2.11453 E 241.155, New Pt 240.364 eta -0.139126 phi -2.11453 E 243.147, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECDown01sigma: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 0.991838
@@ -2644,6 +2899,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=127.833 eta=0.622056
   JERCentral: Jet has pt=127.833 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100501 scale_factor=1.1815 extra_smear_width=0.0632395 --> escale=0.912274 to get new pt 116.619
 [JetSmear.cc] escale = 0.912274, Jet Pt 127.833 eta 0.622056 phi 1.08354 E 155.564, New Pt 116.619 eta 0.622056 phi 1.08354 E 141.917, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECUp01sigma: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1.00816
@@ -2651,6 +2907,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=129.937 eta=0.622056
   JERCentral: Jet has pt=129.937 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.0998363 scale_factor=1.1815 extra_smear_width=0.0628209 --> escale=0.912855 to get new pt 118.614
 [JetSmear.cc] escale = 0.912855, Jet Pt 129.937 eta 0.622056 phi 1.08354 E 158.124, New Pt 118.614 eta 0.622056 phi 1.08354 E 144.344, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECCentral: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1
@@ -2658,6 +2915,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=128.885 eta=0.622056
   JERDown01sigma: Jet has pt=128.885 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100167 scale_factor=1.1332 extra_smear_width=0.0533938 --> escale=0.925932 to get new pt 119.339
 [JetSmear.cc] escale = 0.925932, Jet Pt 128.885 eta 0.622056 phi 1.08354 E 156.844, New Pt 119.339 eta 0.622056 phi 1.08354 E 145.227, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECCentral: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1
@@ -2665,6 +2923,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=128.885 eta=0.622056
   JERUp01sigma: Jet has pt=128.885 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100167 scale_factor=1.2299 extra_smear_width=0.0717192 --> escale=0.900511 to get new pt 116.063
 [JetSmear.cc] escale = 0.900511, Jet Pt 128.885 eta 0.622056 phi 1.08354 E 156.844, New Pt 116.063 eta 0.622056 phi 1.08354 E 141.24, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECCentral: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1
@@ -2672,6 +2931,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=128.885 eta=0.622056
   JERCentral: Jet has pt=128.885 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100167 scale_factor=1.1815 extra_smear_width=0.0630288 --> escale=0.912567 to get new pt 117.616
 [JetSmear.cc] escale = 0.912567, Jet Pt 128.885 eta 0.622056 phi 1.08354 E 156.844, New Pt 117.616 eta 0.622056 phi 1.08354 E 143.13, 
+
  DOING JEC! We get this jec from the corrector: 1.00355
     ... previous jec was: 1.00355
   JECCentral: Jet has pt= 128.885 eta=0.622056 and we apply a multiplicative correction of 1
@@ -2679,6 +2939,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=128.885 eta=0.622056
   JERCentral: Jet has pt=128.885 eta=0.622056 NO GEN MATCH  rnd=-1.3872 r=0.100167 scale_factor=1.1815 extra_smear_width=0.0630288 --> escale=0.912567 to get new pt 117.616
 [JetSmear.cc] escale = 0.912567, Jet Pt 128.885 eta 0.622056 phi 1.08354 E 156.844, New Pt 117.616 eta 0.622056 phi 1.08354 E 143.13, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECDown01sigma: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 0.986831
@@ -2686,6 +2947,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=68.3734 eta=1.63404
   JERCentral: Jet has pt=68.3734 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.176461 scale_factor=1.1307 extra_smear_width=0.0931208 --> escale=0.987036 to get new pt 67.487
 [JetSmear.cc] escale = 0.987036, Jet Pt 68.3734 eta 1.63404 phi -2.58926 E 182.257, New Pt 67.487 eta 1.63404 phi -2.58926 E 179.895, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECUp01sigma: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1.01317
@@ -2693,6 +2955,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=70.1982 eta=1.63404
   JERCentral: Jet has pt=70.1982 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.174292 scale_factor=1.1307 extra_smear_width=0.0919764 --> escale=0.987195 to get new pt 69.2993
 [JetSmear.cc] escale = 0.987195, Jet Pt 70.1982 eta 1.63404 phi -2.58926 E 187.121, New Pt 69.2993 eta 1.63404 phi -2.58926 E 184.725, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECCentral: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1
@@ -2700,6 +2963,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERDown01sigma: Jet has pt=69.2858 eta=1.63404
   JERDown01sigma: Jet has pt=69.2858 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.175364 scale_factor=0.9837 extra_smear_width=0 --> escale=1 to get new pt 69.2858
 [JetSmear.cc] escale = 1, Jet Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, New Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECCentral: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1
@@ -2707,6 +2971,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERUp01sigma: Jet has pt=69.2858 eta=1.63404
   JERUp01sigma: Jet has pt=69.2858 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.175364 scale_factor=1.2778 extra_smear_width=0.139497 --> escale=0.98058 to get new pt 67.9402
 [JetSmear.cc] escale = 0.98058, Jet Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, New Pt 67.9402 eta 1.63404 phi -2.58926 E 181.103, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECCentral: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1
@@ -2714,6 +2979,7 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=69.2858 eta=1.63404
   JERCentral: Jet has pt=69.2858 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.175364 scale_factor=1.1307 extra_smear_width=0.0925424 --> escale=0.987117 to get new pt 68.3931
 [JetSmear.cc] escale = 0.987117, Jet Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, New Pt 68.3931 eta 1.63404 phi -2.58926 E 182.31, 
+
  DOING JEC! We get this jec from the corrector: 1.06697
     ... previous jec was: 1.06697
   JECCentral: Jet has pt= 69.2858 eta=1.63404 and we apply a multiplicative correction of 1
@@ -2721,8 +2987,10 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=69.2858 eta=1.63404
   JERCentral: Jet has pt=69.2858 eta=1.63404 NO GEN MATCH  rnd=-0.139216 r=0.175364 scale_factor=1.1307 extra_smear_width=0.0925424 --> escale=0.987117 to get new pt 68.3931
 [JetSmear.cc] escale = 0.987117, Jet Pt 69.2858 eta 1.63404 phi -2.58926 E 184.689, New Pt 68.3931 eta 1.63404 phi -2.58926 E 182.31, 
+
 Not pass!
 Not pass!
+
 jet1  pt: 489.263, eta: 0.631853, phi: 1.0716, E: 598.241
 jet2  pt: 243.683, eta: -0.136182, phi: -2.1152, E: 246.453
 jet3  pt: 199.557, eta: -0.662673, phi: -2.44562, E: 245.284
