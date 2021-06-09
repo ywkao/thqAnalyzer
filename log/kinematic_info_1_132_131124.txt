@@ -90,34 +90,34 @@ edmCopyPickMerge outputFile=pickevents_1_132_131124_microAOD.root eventsToProces
 #----------------------------------------------------------------------------------------------------
 # Kinematics of jets in flashgg/Systematics/plugins/JetEnergyCorrector.cc (w/o JEC)
 #----------------------------------------------------------------------------------------------------
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 451.55 eta 0.631853 phi 1.0716 E 552.127
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 233.14 eta -0.136182 phi -2.1152 E 235.791
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 190.712 eta -0.662673 phi -2.44562 E 234.412
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 75.2297 eta 1.62564 phi -2.61106 E 199.044
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 91.7262 eta -4.05342 phi -1.31695 E 2642.32
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 60.7424 eta -1.45131 phi 0.108408 E 137.189
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 27.2896 eta -2.79904 phi 2.32285 E 225.123
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 39.2709 eta -3.47955 phi -1.09115 E 637.761
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 26.8624 eta 0.899744 phi 0.374537 E 39.1547
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 23.2307 eta 1.10629 phi -3.10394 E 39.4356
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 23.0919 eta -2.6822 phi 0.15662 E 169.669
-[JetEnergyCorrector.cc: Uncorrected] Jet Pt 18.6736 eta 2.59123 phi 0.597889 E 125.431
+[JetEnergyCorrector.cc: Uncorrected] 1st  Jet Pt 451.55 eta 0.631853 phi 1.0716 E 552.127
+[JetEnergyCorrector.cc: Uncorrected] 2nd  Jet Pt 233.14 eta -0.136182 phi -2.1152 E 235.791
+[JetEnergyCorrector.cc: Uncorrected] 3rd  Jet Pt 190.712 eta -0.662673 phi -2.44562 E 234.412
+[JetEnergyCorrector.cc: Uncorrected] 4th  Jet Pt 75.2297 eta 1.62564 phi -2.61106 E 199.044
+[JetEnergyCorrector.cc: Uncorrected] 5th  Jet Pt 91.7262 eta -4.05342 phi -1.31695 E 2642.32
+[JetEnergyCorrector.cc: Uncorrected] 6th  Jet Pt 60.7424 eta -1.45131 phi 0.108408 E 137.189
+[JetEnergyCorrector.cc: Uncorrected] 7th  Jet Pt 27.2896 eta -2.79904 phi 2.32285 E 225.123
+[JetEnergyCorrector.cc: Uncorrected] 8th  Jet Pt 39.2709 eta -3.47955 phi -1.09115 E 637.761
+[JetEnergyCorrector.cc: Uncorrected] 9th  Jet Pt 26.8624 eta 0.899744 phi 0.374537 E 39.1547
+[JetEnergyCorrector.cc: Uncorrected] 10th Jet Pt 23.2307 eta 1.10629 phi -3.10394 E 39.4356
+[JetEnergyCorrector.cc: Uncorrected] 11th Jet Pt 23.0919 eta -2.6822 phi 0.15662 E 169.669
+[JetEnergyCorrector.cc: Uncorrected] 12th Jet Pt 18.6736 eta 2.59123 phi 0.597889 E 125.431
 
 #----------------------------------------------------------------------------------------------------
 # Kinematics of jets in flashgg/Systematics/plugins/JetSmear.cc (with JEC, w/o systematic variations)
 #----------------------------------------------------------------------------------------------------
-[JetSmear.cc] Jet Pt 478.125 eta 0.631853 phi 1.0716 E 584.621    -> New Pt 489.263 eta 0.631853 phi 1.0716 E 598.241,
-[JetSmear.cc] Jet Pt 241.298 eta -0.136182 phi -2.1152 E 244.041  -> New Pt 243.683 eta -0.136182 phi -2.1152 E 246.453,
-[JetSmear.cc] Jet Pt 197.409 eta -0.662673 phi -2.44562 E 242.642 -> New Pt 199.557 eta -0.662673 phi -2.44562 E 245.284,
-[JetSmear.cc] Jet Pt 80.3149 eta 1.62564 phi -2.61106 E 212.499   -> New Pt 80.7672 eta 1.62564 phi -2.61106 E 213.696,
-[JetSmear.cc] Jet Pt 70.3885 eta -4.05342 phi -1.31695 E 2027.65  -> New Pt 69.4 eta -4.05342 phi -1.31695 E 1999.18,
-[JetSmear.cc] Jet Pt 63.7391 eta -1.45131 phi 0.108408 E 143.958  -> New Pt 61.2055 eta -1.45131 phi 0.108408 E 138.235,
-[JetSmear.cc] Jet Pt 23.1478 eta -2.79904 phi 2.32285 E 190.956   -> New Pt 12.3585 eta 2.79904 phi -0.818742 E -101.95,
-[JetSmear.cc] Jet Pt 21.7351 eta -3.47955 phi -1.09115 E 352.978  -> New Pt 18.5847 eta -3.47955 phi -1.09115 E 301.817,
-[JetSmear.cc] Jet Pt 21.1788 eta 0.899744 phi 0.374537 E 30.8703  -> New Pt 22.155 eta 0.899744 phi 0.374537 E 32.2931,
-[JetSmear.cc] Jet Pt 18.5053 eta 1.10629 phi -3.10394 E 31.4139   -> New Pt 18.9588 eta 1.10629 phi -3.10394 E 32.1838,
-[JetSmear.cc] Jet Pt 16.9685 eta -2.6822 phi 0.15662 E 124.676    -> New Pt 25.87 eta 2.6822 phi -2.98497 E -190.081,
-[JetSmear.cc] Jet Pt 15.141 eta 2.59123 phi 0.597889 E 101.703    -> New Pt 15.2112 eta 2.59123 phi 0.597889 E 102.174,
+[JetSmear.cc] 1st  Jet Pt 478.125 eta 0.631853 phi 1.0716 E 584.621    -> New Pt 489.263 eta 0.631853 phi 1.0716 E 598.241,
+[JetSmear.cc] 2nd  Jet Pt 241.298 eta -0.136182 phi -2.1152 E 244.041  -> New Pt 243.683 eta -0.136182 phi -2.1152 E 246.453,
+[JetSmear.cc] 3rd  Jet Pt 197.409 eta -0.662673 phi -2.44562 E 242.642 -> New Pt 199.557 eta -0.662673 phi -2.44562 E 245.284,
+[JetSmear.cc] 4th  Jet Pt 80.3149 eta 1.62564 phi -2.61106 E 212.499   -> New Pt 80.7672 eta 1.62564 phi -2.61106 E 213.696,
+[JetSmear.cc] 5th  Jet Pt 70.3885 eta -4.05342 phi -1.31695 E 2027.65  -> New Pt 69.4 eta -4.05342 phi -1.31695 E 1999.18,
+[JetSmear.cc] 6th  Jet Pt 63.7391 eta -1.45131 phi 0.108408 E 143.958  -> New Pt 61.2055 eta -1.45131 phi 0.108408 E 138.235,
+[JetSmear.cc] 7th  Jet Pt 23.1478 eta -2.79904 phi 2.32285 E 190.956   -> New Pt 12.3585 eta 2.79904 phi -0.818742 E -101.95,
+[JetSmear.cc] 8th  Jet Pt 21.7351 eta -3.47955 phi -1.09115 E 352.978  -> New Pt 18.5847 eta -3.47955 phi -1.09115 E 301.817,
+[JetSmear.cc] 9th  Jet Pt 21.1788 eta 0.899744 phi 0.374537 E 30.8703  -> New Pt 22.155 eta 0.899744 phi 0.374537 E 32.2931,
+[JetSmear.cc] 10th Jet Pt 18.5053 eta 1.10629 phi -3.10394 E 31.4139   -> New Pt 18.9588 eta 1.10629 phi -3.10394 E 32.1838,
+[JetSmear.cc] 11th Jet Pt 16.9685 eta -2.6822 phi 0.15662 E 124.676    -> New Pt 25.87 eta 2.6822 phi -2.98497 E -190.081,
+[JetSmear.cc] 12th Jet Pt 15.141 eta 2.59123 phi 0.597889 E 101.703    -> New Pt 15.2112 eta 2.59123 phi 0.597889 E 102.174,
 
 #----------------------------------------------------------------------------------------------------
 # Kinematics of jets in flashgg/Taggers/plugins/THQHadronicTagProducer.cc (w/o object selection)
@@ -142,6 +142,8 @@ jet15 pt: -999, eta: -999, phi: -999, E: -999
 # Raw outputs from JetEnergyCorrector.cc and JetSmear.cc when running flashgg
 #----------------------------------------------------------------------------------------------------
 Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 0 at 09-Jun-2021 11:31:34.975 CEST
+
+# 1st jet
  DOING JEC! We get this jec from the corrector: 1.05885
     ... previous jec was: 1.05885
   JECCentral: Jet has pt= 478.125 eta=0.631853 and we apply a multiplicative correction of 1
@@ -149,6 +151,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=478.125 eta=0.631853
   JERCentral: Jet has pt=478.125 eta=0.631853 genpt=416.753 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=489.263
 [JetSmear.cc] Jet Pt 478.125 eta 0.631853 phi 1.0716 E 584.621, New Pt 489.263 eta 0.631853 phi 1.0716 E 598.241, 
+
+# 2nd jet
  DOING JEC! We get this jec from the corrector: 1.03499
     ... previous jec was: 1.03499
   JECCentral: Jet has pt= 241.298 eta=-0.136182 and we apply a multiplicative correction of 1
@@ -156,6 +160,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=241.298 eta=-0.136182
   JERCentral: Jet has pt=241.298 eta=-0.136182 genpt=224.642 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=243.683
 [JetSmear.cc] Jet Pt 241.298 eta -0.136182 phi -2.1152 E 244.041, New Pt 243.683 eta -0.136182 phi -2.1152 E 246.453, 
+
+# 3rd jet
  DOING JEC! We get this jec from the corrector: 1.03511
     ... previous jec was: 1.03511
   JECCentral: Jet has pt= 197.409 eta=-0.662673 and we apply a multiplicative correction of 1
@@ -163,6 +169,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=197.409 eta=-0.662673
   JERCentral: Jet has pt=197.409 eta=-0.662673 genpt=185.569 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=199.557
 [JetSmear.cc] Jet Pt 197.409 eta -0.662673 phi -2.44562 E 242.642, New Pt 199.557 eta -0.662673 phi -2.44562 E 245.284, 
+
+# 4th jet
  DOING JEC! We get this jec from the corrector: 1.0676
     ... previous jec was: 1.0676
   JECCentral: Jet has pt= 80.3149 eta=1.62564 and we apply a multiplicative correction of 1
@@ -170,6 +178,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=80.3149 eta=1.62564
   JERCentral: Jet has pt=80.3149 eta=1.62564 NO GEN MATCH  rnd=0.0651641 r=0.163762 scale_factor=1.1307 extra_smear_width=0.0864197 --> escale=1.00563 to get new pt 80.7672
 [JetSmear.cc] escale = 1.00563, Jet Pt 80.3149 eta 1.62564 phi -2.61106 E 212.499, New Pt 80.7672 eta 1.62564 phi -2.61106 E 213.696, 
+
+# 5th jet
  DOING JEC! We get this jec from the corrector: 0.767376
     ... previous jec was: 0.767376
   JECCentral: Jet has pt= 70.3885 eta=-4.05342 and we apply a multiplicative correction of 1
@@ -177,6 +187,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=70.3885 eta=-4.05342
   JERCentral: Jet has pt=70.3885 eta=-4.05342 genpt=76.7992 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=69.4
 [JetSmear.cc] Jet Pt 70.3885 eta -4.05342 phi -1.31695 E 2027.65, New Pt 69.4 eta -4.05342 phi -1.31695 E 1999.18, 
+
+# 6th jet
  DOING JEC! We get this jec from the corrector: 1.04933
     ... previous jec was: 1.04933
   JECCentral: Jet has pt= 63.7391 eta=-1.45131 and we apply a multiplicative correction of 1
@@ -184,6 +196,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=63.7391 eta=-1.45131
   JERCentral: Jet has pt=63.7391 eta=-1.45131 NO GEN MATCH  rnd=-0.412903 r=0.182422 scale_factor=1.1307 extra_smear_width=0.0962667 --> escale=0.960251 to get new pt 61.2055
 [JetSmear.cc] escale = 0.960251, Jet Pt 63.7391 eta -1.45131 phi 0.108408 E 143.958, New Pt 61.2055 eta -1.45131 phi 0.108408 E 138.235, 
+
+# 7th jet
  DOING JEC! We get this jec from the corrector: 0.848228
     ... previous jec was: 0.848228
   JECCentral: Jet has pt= 23.1478 eta=-2.79904 and we apply a multiplicative correction of 1
@@ -191,6 +205,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=23.1478 eta=-2.79904
   JERCentral: Jet has pt=23.1478 eta=-2.79904 NO GEN MATCH  rnd=-1.74333 r=0.511093 scale_factor=1.9909 extra_smear_width=0.879865 --> escale=-0.533895 to get new pt -12.3585
 [JetSmear.cc] escale = -0.533895, Jet Pt 23.1478 eta -2.79904 phi 2.32285 E 190.956, New Pt 12.3585 eta 2.79904 phi -0.818742 E -101.95, 
+
+# 8th jet
  DOING JEC! We get this jec from the corrector: 0.553465
     ... previous jec was: 0.553465
   JECCentral: Jet has pt= 21.7351 eta=-3.47955 and we apply a multiplicative correction of 1
@@ -198,6 +214,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=21.7351 eta=-3.47955
   JERCentral: Jet has pt=21.7351 eta=-3.47955 NO GEN MATCH  rnd=-0.804527 r=0.312586 scale_factor=1.1542 extra_smear_width=0.180158 --> escale=0.855058 to get new pt 18.5847
 [JetSmear.cc] escale = 0.855058, Jet Pt 21.7351 eta -3.47955 phi -1.09115 E 352.978, New Pt 18.5847 eta -3.47955 phi -1.09115 E 301.817, 
+
+# 9th jet
  DOING JEC! We get this jec from the corrector: 0.788419
     ... previous jec was: 0.788419
   JECCentral: Jet has pt= 21.1788 eta=0.899744 and we apply a multiplicative correction of 1
@@ -205,6 +223,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=21.1788 eta=0.899744
   JERCentral: Jet has pt=21.1788 eta=0.899744 NO GEN MATCH  rnd=0.386464 r=0.261762 scale_factor=1.0989 extra_smear_width=0.119261 --> escale=1.04609 to get new pt 22.155
 [JetSmear.cc] escale = 1.04609, Jet Pt 21.1788 eta 0.899744 phi 0.374537 E 30.8703, New Pt 22.155 eta 0.899744 phi 0.374537 E 32.2931, 
+
+# 10th jet
  DOING JEC! We get this jec from the corrector: 0.796588
     ... previous jec was: 0.796588
   JECCentral: Jet has pt= 18.5053 eta=1.10629 and we apply a multiplicative correction of 1
@@ -212,6 +232,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=18.5053 eta=1.10629
   JERCentral: Jet has pt=18.5053 eta=1.10629 NO GEN MATCH  rnd=0.175345 r=0.306773 scale_factor=1.0989 extra_smear_width=0.139769 --> escale=1.02451 to get new pt 18.9588
 [JetSmear.cc] escale = 1.02451, Jet Pt 18.5053 eta 1.10629 phi -3.10394 E 31.4139, New Pt 18.9588 eta 1.10629 phi -3.10394 E 32.1838, 
+
+# 11th jet
  DOING JEC! We get this jec from the corrector: 0.734823
     ... previous jec was: 0.734823
   JECCentral: Jet has pt= 16.9685 eta=-2.6822 and we apply a multiplicative correction of 1
@@ -219,6 +241,8 @@ Begin processing the 1st record. Run 1, Event 131124, LumiSection 132 on stream 
   JERCentral: Jet has pt=16.9685 eta=-2.6822
   JERCentral: Jet has pt=16.9685 eta=-2.6822 NO GEN MATCH  rnd=-2.10834 r=0.695562 scale_factor=1.9909 extra_smear_width=1.19743 --> escale=-1.52459 to get new pt -25.87
 [JetSmear.cc] escale = -1.52459, Jet Pt 16.9685 eta -2.6822 phi 0.15662 E 124.676, New Pt 25.87 eta 2.6822 phi -2.98497 E -190.081, 
+
+# 12th jet
  DOING JEC! We get this jec from the corrector: 0.810823
     ... previous jec was: 0.810823
   JECCentral: Jet has pt= 15.141 eta=2.59123 and we apply a multiplicative correction of 1
