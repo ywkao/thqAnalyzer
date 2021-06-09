@@ -5,8 +5,8 @@ process.load("FWCore.MessageService.MessageLogger_cfi")
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
-        'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131039_miniAOD.root'
-        #'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131124_miniAOD.root'
+        #'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131039_miniAOD.root'
+        'file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131124_miniAOD.root'
     )
 )
 
@@ -17,11 +17,11 @@ process.source = cms.Source("PoolSource",
 from CondCore.CondDB.CondDB_cfi import *
 
 process.jec = cms.ESSource('PoolDBESSource',
-    connect = cms.string('sqlite:Summer19UL18_V5_MC.db'), #(--> To be adapted to the correction file you want to use)
+    connect = cms.string('sqlite:Summer19UL17_V5_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         cms.PSet(
             record = cms.string('JetCorrectionsRecord'),
-            tag    = cms.string('JetCorrectorParametersCollection_Summer19UL18_V5_MC_AK4PFchs'),
+            tag    = cms.string('JetCorrectorParametersCollection_Summer19UL17_V5_MC_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )
@@ -31,18 +31,18 @@ process.jec = cms.ESSource('PoolDBESSource',
 process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
 
 process.jeR = cms.ESSource('PoolDBESSource',
-    connect = cms.string('sqlite:Summer19UL18_JRV2_MC.db'), #(--> To be adapted to the correction file you want to use)
+    connect = cms.string('sqlite:Summer19UL17_JRV2_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         # Resolution
         cms.PSet(
             record = cms.string('JetResolutionRcd'),
-            tag    = cms.string('JR_Summer19UL18_JRV2_MC_PtResolution_AK4PFchs'),
+            tag    = cms.string('JR_Summer19UL17_JRV2_MC_PtResolution_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs_pt')
         ),
         # Scale factors
         cms.PSet(
             record = cms.string('JetResolutionScaleFactorRcd'),
-            tag    = cms.string('JR_Summer19UL18_JRV2_MC_SF_AK4PFchs'),
+            tag    = cms.string('JR_Summer19UL17_JRV2_MC_SF_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )
