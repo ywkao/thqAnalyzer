@@ -13,15 +13,16 @@ process.source = cms.Source("PoolSource",
 #----------------------------------------------------------------------------------------------------
 # Update JEC (from Stephanie)
 # twiki page: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookJetEnergyCorrections
+# GT: 94X_mc2017_realistic_v17
 #----------------------------------------------------------------------------------------------------
 from CondCore.CondDB.CondDB_cfi import *
 
 process.jec = cms.ESSource('PoolDBESSource',
-    connect = cms.string('sqlite:Summer19UL17_V5_MC.db'), #(--> To be adapted to the correction file you want to use)
+    connect = cms.string('sqlite:Fall17_17Nov2017_V32_94X_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         cms.PSet(
             record = cms.string('JetCorrectionsRecord'),
-            tag    = cms.string('JetCorrectorParametersCollection_Summer19UL17_V5_MC_AK4PFchs'),
+            tag    = cms.string('JetCorrectorParametersCollection_Fall17_17Nov2017_V32_94X_MC_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )
@@ -31,18 +32,18 @@ process.jec = cms.ESSource('PoolDBESSource',
 process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
 
 process.jeR = cms.ESSource('PoolDBESSource',
-    connect = cms.string('sqlite:Summer19UL17_JRV2_MC.db'), #(--> To be adapted to the correction file you want to use)
+    connect = cms.string('sqlite:Fall17_V3b_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         # Resolution
         cms.PSet(
             record = cms.string('JetResolutionRcd'),
-            tag    = cms.string('JR_Summer19UL17_JRV2_MC_PtResolution_AK4PFchs'),
+            tag    = cms.string('JR_Fall17_V3b_MC_PtResolution_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs_pt')
         ),
         # Scale factors
         cms.PSet(
             record = cms.string('JetResolutionScaleFactorRcd'),
-            tag    = cms.string('JR_Summer19UL17_JRV2_MC_SF_AK4PFchs'),
+            tag    = cms.string('JR_Fall17_V3b_MC_SF_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )

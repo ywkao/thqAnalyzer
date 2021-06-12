@@ -1,0 +1,1882 @@
+# Run 1, Event 131039, LumiSection 132
+
+#=================================== miniAOD ===================================#
+Analyzing a root file from the command:
+edmCopyPickMerge outputFile=pickevents_1_132_131039_miniAOD.root eventsToProcess=1:132:131039 inputFiles=/store/mc/RunIIFall17MiniAODv2/TprimeBToTH_Hgg_M-1000_LH_TuneCP5_PSweights_13TeV-madgraph_pythia8/MINIAODSIM/PU2017_12Apr2018_94X_mc2017_realistic_v14-v2/250000/74D5B629-1E02-EB11-853F-B499BAAC07AC.root
+
+#----------------------------------------------------------------------------------------------------
+# Raw kinematics of jets from miniAOD w/o JEC
+#----------------------------------------------------------------------------------------------------
+Jet 1: Pt 377.728 eta -0.362877 phi 2.76111 E 408.238
+Jet 2: Pt 284.791 eta -0.534281 phi 0.266192 E 326.529
+Jet 3: Pt 276.875 eta -0.653384 phi -0.208391 E 338.31
+Jet 4: Pt 170.439 eta -3.2657 phi -2.18025 E 2235.92
+Jet 5: Pt 92.5222 eta -0.756275 phi -2.75481 E 120.673
+Jet 6: Pt 24.996 eta -3.44468 phi 2.83652 E 392.033
+Jet 7: Pt 18.4126 eta 1.19715 phi -0.566439 E 33.5234
+Jet 8: Pt 16.4805 eta -0.317553 phi -0.683889 E 17.6407
+Jet 9: Pt 15.5866 eta -2.99117 phi 0.972093 E 155.591
+Jet 10: Pt 15.0459 eta 3.30358 phi 1.21007 E 205.011
+Jet 11: Pt 14.6431 eta 2.85758 phi -0.843487 E 128.017
+Jet 12: Pt 14.3939 eta 4.10727 phi 1.23351 E 437.566
+Jet 13: Pt 12.7891 eta 3.92994 phi -0.389042 E 325.648
+Jet 14: Pt 10.8109 eta 3.93926 phi 3.08922 E 277.852
+
+#----------------------------------------------------------------------------------------------------
+# Kinematics of jets before JER
+#----------------------------------------------------------------------------------------------------
+>>> selectedUpdatedPatJetsUpdatedJEC
+Jet 1: Pt 378.435 eta -0.362877 phi 2.76111 E 409.002
+Jet 2: Pt 284.011 eta -0.534281 phi 0.266192 E 325.634
+Jet 3: Pt 276.268 eta -0.653384 phi -0.208391 E 337.567
+Jet 4: Pt 170.331 eta -3.2657 phi -2.18025 E 2234.51
+Jet 5: Pt 92.829 eta -0.756275 phi -2.75481 E 121.073
+Jet 6: Pt 24.9161 eta -3.44468 phi 2.83652 E 390.78
+Jet 7: Pt 18.5731 eta 1.19715 phi -0.566439 E 33.8157
+Jet 8: Pt 16.3491 eta -0.317553 phi -0.683889 E 17.5
+Jet 9: Pt 16.0949 eta -2.99117 phi 0.972093 E 160.665
+Jet 10: Pt 15.2355 eta 2.85758 phi -0.843487 E 133.197
+Jet 11: Pt 14.9718 eta 3.30358 phi 1.21007 E 204.002
+Jet 12: Pt 14.3391 eta 4.10727 phi 1.23351 E 435.903
+Jet 13: Pt 12.6928 eta 3.92994 phi -0.389042 E 323.196
+Jet 14: Pt 10.7046 eta 3.93926 phi 3.08922 E 275.119
+
+
+#----------------------------------------------------------------------------------------------------
+# Kinematics of jets after JER
+#----------------------------------------------------------------------------------------------------
+>>> slimmedJetsSmeared
+Jet 1: Pt 379.002 eta -0.362877 phi 2.76111 E 409.615
+Jet 2: Pt 287.834 eta -0.534281 phi 0.266192 E 330.018
+Jet 3: Pt 279.936 eta -0.653384 phi -0.208391 E 342.049
+Jet 4: Pt 172.501 eta -3.2657 phi -2.18025 E 2262.97
+Jet 5: Pt 93.4057 eta -0.756275 phi -2.75481 E 121.826
+Jet 6: Pt 28.6379 eta -3.44468 phi 2.83652 E 449.151
+Jet 7: Pt 19.0663 eta 3.30358 phi 1.21007 E 259.793
+Jet 8: Pt 18.7535 eta 1.19715 phi -0.566439 E 34.144
+Jet 9: Pt 16.0901 eta -0.317553 phi -0.683889 E 17.2227
+Jet 10: Pt 16.0214 eta 4.10727 phi 1.23351 E 487.043
+Jet 11: Pt 14.0294 eta 2.85758 phi -0.843487 E 122.652
+Jet 12: Pt 13.0816 eta 3.92994 phi -0.389042 E 333.097
+Jet 13: Pt 13.0371 eta -2.99117 phi 0.972093 E 130.142
+Jet 14: Pt 7.91459 eta 3.93926 phi 3.08922 E 203.413
+
+
+#=================================== microAOD ===================================#
+Analyzing a root file from the command:
+edmCopyPickMerge outputFile=pickevents_1_132_131039_microAOD.root eventsToProcess=1:132:131039 inputFiles=/store/user/lata/Era2017_RR-31Mar2018_v2/v2_p11/TprimeBToTH_Hgg_M-1000_LH_TuneCP5_PSweights_13TeV-madgraph_pythia8/Era2017_RR-31Mar2018_v2-v2_p11-v0-RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v2/201110_125406/0000/myMicroAODOutputFile_24.root
+
+#----------------------------------------------------------------------------------------------------
+# Kinematics of jets in flashgg/Systematics/plugins/JetEnergyCorrector.cc (w/o JEC)
+#----------------------------------------------------------------------------------------------------
+[JetEnergyCorrector.cc: Uncorrected] 1st  Jet Pt 355.929 eta -0.362873 phi 2.7611 E 384.678
+[JetEnergyCorrector.cc: Uncorrected] 2nd  Jet Pt 267.507 eta -0.534227 phi 0.266161 E 306.703
+[JetEnergyCorrector.cc: Uncorrected] 3rd  Jet Pt 260.529 eta -0.653379 phi -0.208425 E 318.335
+[JetEnergyCorrector.cc: Uncorrected] 4th  Jet Pt 177.5 eta -3.26563 phi -2.18022 E 2328.39
+[JetEnergyCorrector.cc: Uncorrected] 5th  Jet Pt 89.9824 eta -0.756282 phi -2.75482 E 117.361
+[JetEnergyCorrector.cc: Uncorrected] 6th  Jet Pt 31.3078 eta -3.44471 phi 2.83654 E 491.04
+[JetEnergyCorrector.cc: Uncorrected] 7th  Jet Pt 18.9069 eta 1.19715 phi -0.56644 E 34.4233
+[JetEnergyCorrector.cc: Uncorrected] 8th  Jet Pt 16.7489 eta -0.317574 phi -0.683876 E 17.928
+[JetEnergyCorrector.cc: Uncorrected] 9th  Jet Pt 22.8837 eta 3.30358 phi 1.21006 E 311.809
+[JetEnergyCorrector.cc: Uncorrected] 10th Jet Pt 15.6655 eta 2.85755 phi -0.843491 E 136.953
+
+#----------------------------------------------------------------------------------------------------
+# Kinematics of jets in flashgg/Systematics/plugins/JetSmear.cc (with JEC, w/o systematic variations)
+#----------------------------------------------------------------------------------------------------
+[JetSmear.cc] 1st  Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743    -> New Pt 378.73 eta -0.362873 phi 2.7611 E 409.32,
+[JetSmear.cc] 2nd  Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578  -> New Pt 287.785 eta -0.534227 phi 0.266161 E 329.953,
+[JetSmear.cc] 3rd  Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439 -> New Pt 279.812 eta -0.653379 phi -0.208425 E 341.897,
+[JetSmear.cc] 4th  Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01   -> New Pt 172.295 eta -3.26563 phi -2.18022 E 2260.11,
+[JetSmear.cc] 5th  Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304  -> New Pt 93.6139 eta -0.756282 phi -2.75482 E 122.098,
+[JetSmear.cc] 6th  Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687    -> New Pt 19.0081 eta -3.44471 phi 2.83654 E 298.127,
+[JetSmear.cc] 7th  Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534    -> New Pt 18.8377 eta 1.19715 phi -0.56644 E 34.2974,
+[JetSmear.cc] 8th  Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752 -> New Pt 18.3411 eta -0.317574 phi -0.683876 E 19.6322,
+[JetSmear.cc] 9th  Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527     -> New Pt 18.1022 eta 3.30358 phi 1.21006 E 246.658,
+[JetSmear.cc] 10th Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202   -> New Pt 33.3412 eta -2.85755 phi 2.2981 E -291.48,
+
+#----------------------------------------------------------------------------------------------------
+# Kinematics of jets in flashgg/Taggers/plugins/THQHadronicTagProducer.cc (w/o object selection)
+#----------------------------------------------------------------------------------------------------
+jet1_pt_: 378.729  , jet1_eta_: -0.362873 , jet1_phi_: 2.7611    , jet1_energy_: 409.32
+jet2_pt_: 287.785  , jet2_eta_: -0.534227 , jet2_phi_: 0.266161  , jet2_energy_: 329.953
+jet3_pt_: 279.812  , jet3_eta_: -0.653379 , jet3_phi_: -0.208425 , jet3_energy_: 341.897
+jet4_pt_: 172.295  , jet4_eta_: -3.26563  , jet4_phi_: -2.18022  , jet4_energy_: 2260.11
+jet5_pt_: 93.6139  , jet5_eta_: -0.756282 , jet5_phi_: -2.75482  , jet5_energy_: 122.098
+jet6_pt_: 33.3412  , jet6_eta_: -2.85755  , jet6_phi_: 2.2981    , jet6_energy_: -291.48
+jet7_pt_: 19.0081  , jet7_eta_: -3.44471  , jet7_phi_: 2.83654   , jet7_energy_: 298.127
+jet8_pt_: 18.8377  , jet8_eta_: 1.19715   , jet8_phi_: -0.56644  , jet8_energy_: 34.2974
+jet9_pt_: 18.3411  , jet9_eta_: -0.317574 , jet9_phi_: -0.683876 , jet9_energy_: 19.6322
+jet10_pt_: 18.1022 , jet10_eta_: 3.30358  , jet10_phi_: 1.21006  , jet10_energy_: 246.658
+jet11_pt_: -999    , jet11_eta_: -999     , jet11_phi_: -999     , jet11_energy_: -999
+jet12_pt_: -999    , jet12_eta_: -999     , jet12_phi_: -999     , jet12_energy_: -999
+jet13_pt_: -999    , jet13_eta_: -999     , jet13_phi_: -999     , jet13_energy_: -999
+jet14_pt_: -999    , jet14_eta_: -999     , jet14_phi_: -999     , jet14_energy_: -999
+jet15_pt_: -999    , jet15_eta_: -999     , jet15_phi_: -999     , jet15_energy_: -999
+
+
+#----------------------------------------------------------------------------------------------------
+# Raw outputs from JetEnergyCorrector.cc and JetSmear.cc when running flashgg
+#----------------------------------------------------------------------------------------------------
+Begin processing the 1st record. Run 1, Event 131039, LumiSection 132 on stream 0 at 07-Jun-2021 03:40:31.913 CEST
+
+# 1st jet
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECCentral: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, 
+  JERCentral: Jet has pt=378.196 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=378.196 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=378.73
+[JetSmear.cc] Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.73 eta -0.362873 phi 2.7611 E 409.32, 
+
+# 2nd jet
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECCentral: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, 
+  JERCentral: Jet has pt=283.969 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=283.969 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=287.785
+[JetSmear.cc] Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 287.785 eta -0.534227 phi 0.266161 E 329.953, 
+
+# 3rd jet
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECCentral: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, 
+  JERCentral: Jet has pt=276.163 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=276.163 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=279.812
+[JetSmear.cc] Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 279.812 eta -0.653379 phi -0.208425 E 341.897, 
+
+# 4th jet
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECCentral: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, 
+  JERCentral: Jet has pt=170.153 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=170.153 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=172.295
+[JetSmear.cc] Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 172.295 eta -3.26563 phi -2.18022 E 2260.11, 
+
+# 5th jet
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECCentral: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=93.6139
+[JetSmear.cc] Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.6139 eta -0.756282 phi -2.75482 E 122.098, 
+
+# 6th jet
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECCentral: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.238265 scale_factor=1.1542 extra_smear_width=0.137324 --> escale=0.791446 to get new pt 19.0081
+[JetSmear.cc] escale = 0.791446, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 19.0081 eta -3.44471 phi 2.83654 E 298.127, 
+
+# 7th jet
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECCentral: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, 
+  JERCentral: Jet has pt=18.6488 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=18.6488 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.1137 to get new pt=18.8377
+[JetSmear.cc] Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.8377 eta 1.19715 phi -0.56644 E 34.2974, 
+
+# 8th jet
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECCentral: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.256866 scale_factor=1.1432 extra_smear_width=0.142302 --> escale=1.11704 to get new pt 18.3411
+[JetSmear.cc] escale = 1.11704, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 18.3411 eta -0.317574 phi -0.683876 E 19.6322, 
+
+# 9th jet
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECCentral: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, 
+  JERCentral: Jet has pt=15.9643 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.9643 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.334101 scale_factor=1.1542 extra_smear_width=0.192559 --> escale=1.13392 to get new pt 18.1022
+[JetSmear.cc] escale = 1.13392, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 18.1022 eta 3.30358 phi 1.21006 E 246.658, 
+
+# 10th jet
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECCentral: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, 
+  JERCentral: Jet has pt=15.2364 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.2364 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.586031 scale_factor=2.2923 extra_smear_width=1.20879 --> escale=-2.18826 to get new pt -33.3412
+[JetSmear.cc] escale = -2.18826, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 33.3412 eta -2.85755 phi 2.2981 E -291.48, 
+
+#----------------------------------------------------------------------------------------------------
+# start to repeat with sys variations of +/- JEC, +/- JER, and the other source (not identified yet)
+#----------------------------------------------------------------------------------------------------
+
+#--------------------------------------------------
+# 1st jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECDown01sigma: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 0.995191
+[JetEnergyCorrector.cc] scale = 0.995191, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 376.377 eta -0.362873 phi 2.7611 E 406.777, 
+  JERCentral: Jet has pt=376.377 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=376.377 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=376.65
+[JetSmear.cc] Jet Pt 376.377 eta -0.362873 phi 2.7611 E 406.777, New Pt 376.65 eta -0.362873 phi 2.7611 E 407.072, 
+
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECUp01sigma: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1.00481
+[JetEnergyCorrector.cc] scale = 1.00481, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 380.015 eta -0.362873 phi 2.7611 E 410.709, 
+  JERCentral: Jet has pt=380.015 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=380.015 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=380.809
+[JetSmear.cc] Jet Pt 380.015 eta -0.362873 phi 2.7611 E 410.709, New Pt 380.809 eta -0.362873 phi 2.7611 E 411.567, 
+
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECCentral: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, 
+  JERDown01sigma: Jet has pt=378.196 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=378.196 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.121 to get new pt=378.647
+[JetSmear.cc] Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.647 eta -0.362873 phi 2.7611 E 409.23, 
+
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECCentral: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, 
+  JERUp01sigma: Jet has pt=378.196 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=378.196 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1654 to get new pt=378.812
+[JetSmear.cc] Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.812 eta -0.362873 phi 2.7611 E 409.409, 
+
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECCentral: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, 
+  JERCentral: Jet has pt=378.196 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=378.196 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=378.73
+[JetSmear.cc] Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.73 eta -0.362873 phi 2.7611 E 409.32, 
+
+ DOING JEC! We get this jec from the corrector: 1.06256
+    ... previous jec was: 1.06256
+  JECCentral: Jet has pt= 378.196 eta=-0.362873 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, 
+  JERCentral: Jet has pt=378.196 eta=-0.362873
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=378.196 eta=-0.362873 genpt=374.473 and we apply a scale_factor to (recpt-genpt) of 1.1432 to get new pt=378.73
+[JetSmear.cc] Jet Pt 378.196 eta -0.362873 phi 2.7611 E 408.743, New Pt 378.73 eta -0.362873 phi 2.7611 E 409.32, 
+
+#--------------------------------------------------
+# 2nd jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECDown01sigma: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 0.994578
+[JetEnergyCorrector.cc] scale = 0.994578, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 282.43 eta -0.534227 phi 0.266161 E 323.813, 
+  JERCentral: Jet has pt=282.43 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=282.43 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=285.966
+[JetSmear.cc] Jet Pt 282.43 eta -0.534227 phi 0.266161 E 323.813, New Pt 285.966 eta -0.534227 phi 0.266161 E 327.867, 
+
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECUp01sigma: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1.00542
+[JetEnergyCorrector.cc] scale = 1.00542, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 285.509 eta -0.534227 phi 0.266161 E 327.343, 
+  JERCentral: Jet has pt=285.509 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=285.509 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=289.604
+[JetSmear.cc] Jet Pt 285.509 eta -0.534227 phi 0.266161 E 327.343, New Pt 289.604 eta -0.534227 phi 0.266161 E 332.038, 
+
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECCentral: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, 
+  JERDown01sigma: Jet has pt=283.969 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=283.969 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1332 to get new pt=286.77
+[JetSmear.cc] Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 286.77 eta -0.534227 phi 0.266161 E 328.788, 
+
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECCentral: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, 
+  JERUp01sigma: Jet has pt=283.969 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=283.969 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.2299 to get new pt=288.802
+[JetSmear.cc] Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 288.802 eta -0.534227 phi 0.266161 E 331.119, 
+
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECCentral: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, 
+  JERCentral: Jet has pt=283.969 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=283.969 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=287.785
+[JetSmear.cc] Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 287.785 eta -0.534227 phi 0.266161 E 329.953, 
+
+ DOING JEC! We get this jec from the corrector: 1.06154
+    ... previous jec was: 1.06154
+  JECCentral: Jet has pt= 283.969 eta=-0.534227 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, 
+  JERCentral: Jet has pt=283.969 eta=-0.534227
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=283.969 eta=-0.534227 genpt=262.947 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=287.785
+[JetSmear.cc] Jet Pt 283.969 eta -0.534227 phi 0.266161 E 325.578, New Pt 287.785 eta -0.534227 phi 0.266161 E 329.953, 
+
+#--------------------------------------------------
+# 3rd jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECDown01sigma: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 0.993928
+[JetEnergyCorrector.cc] scale = 0.993928, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 274.487 eta -0.653379 phi -0.208425 E 335.39, 
+  JERCentral: Jet has pt=274.487 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=274.487 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=277.831
+[JetSmear.cc] Jet Pt 274.487 eta -0.653379 phi -0.208425 E 335.39, New Pt 277.831 eta -0.653379 phi -0.208425 E 339.477, 
+
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECUp01sigma: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1.00607
+[JetEnergyCorrector.cc] scale = 1.00607, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 277.84 eta -0.653379 phi -0.208425 E 339.487, 
+  JERCentral: Jet has pt=277.84 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=277.84 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=281.793
+[JetSmear.cc] Jet Pt 277.84 eta -0.653379 phi -0.208425 E 339.487, New Pt 281.793 eta -0.653379 phi -0.208425 E 344.318, 
+
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECCentral: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, 
+  JERDown01sigma: Jet has pt=276.163 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=276.163 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1332 to get new pt=278.841
+[JetSmear.cc] Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 278.841 eta -0.653379 phi -0.208425 E 340.711, 
+
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECCentral: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, 
+  JERUp01sigma: Jet has pt=276.163 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=276.163 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.2299 to get new pt=280.785
+[JetSmear.cc] Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 280.785 eta -0.653379 phi -0.208425 E 343.086, 
+
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECCentral: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, 
+  JERCentral: Jet has pt=276.163 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=276.163 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=279.812
+[JetSmear.cc] Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 279.812 eta -0.653379 phi -0.208425 E 341.897, 
+
+ DOING JEC! We get this jec from the corrector: 1.06001
+    ... previous jec was: 1.06001
+  JECCentral: Jet has pt= 276.163 eta=-0.653379 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, 
+  JERCentral: Jet has pt=276.163 eta=-0.653379
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=276.163 eta=-0.653379 genpt=256.059 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=279.812
+[JetSmear.cc] Jet Pt 276.163 eta -0.653379 phi -0.208425 E 337.439, New Pt 279.812 eta -0.653379 phi -0.208425 E 341.897, 
+
+#--------------------------------------------------
+# 4th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECDown01sigma: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 0.968607
+[JetEnergyCorrector.cc] scale = 0.968607, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 164.811 eta -3.26563 phi -2.18022 E 2161.94, 
+  JERCentral: Jet has pt=164.811 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=164.811 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=166.13
+[JetSmear.cc] Jet Pt 164.811 eta -3.26563 phi -2.18022 E 2161.94, New Pt 166.13 eta -3.26563 phi -2.18022 E 2179.24, 
+
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECUp01sigma: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1.03139
+[JetEnergyCorrector.cc] scale = 1.03139, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 175.495 eta -3.26563 phi -2.18022 E 2302.08, 
+  JERCentral: Jet has pt=175.495 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=175.495 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=178.46
+[JetSmear.cc] Jet Pt 175.495 eta -3.26563 phi -2.18022 E 2302.08, New Pt 178.46 eta -3.26563 phi -2.18022 E 2340.98, 
+
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECCentral: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, 
+  JERDown01sigma: Jet has pt=170.153 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=170.153 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.0019 to get new pt=170.179
+[JetSmear.cc] Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.179 eta -3.26563 phi -2.18022 E 2232.36, 
+
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECCentral: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, 
+  JERUp01sigma: Jet has pt=170.153 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=170.153 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.3066 to get new pt=174.412
+[JetSmear.cc] Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 174.412 eta -3.26563 phi -2.18022 E 2287.88, 
+
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECCentral: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, 
+  JERCentral: Jet has pt=170.153 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=170.153 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=172.295
+[JetSmear.cc] Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 172.295 eta -3.26563 phi -2.18022 E 2260.11, 
+
+ DOING JEC! We get this jec from the corrector: 0.958609
+    ... previous jec was: 0.958609
+  JECCentral: Jet has pt= 170.153 eta=-3.26563 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, 
+  JERCentral: Jet has pt=170.153 eta=-3.26563
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=170.153 eta=-3.26563 genpt=156.263 and we apply a scale_factor to (recpt-genpt) of 1.1542 to get new pt=172.295
+[JetSmear.cc] Jet Pt 170.153 eta -3.26563 phi -2.18022 E 2232.01, New Pt 172.295 eta -3.26563 phi -2.18022 E 2260.11, 
+
+#--------------------------------------------------
+# 5th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECDown01sigma: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 0.990517
+[JetEnergyCorrector.cc] scale = 0.990517, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 92.1233 eta -0.756282 phi -2.75482 E 120.153, 
+  JERCentral: Jet has pt=92.1233 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=92.1233 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=92.5719
+[JetSmear.cc] Jet Pt 92.1233 eta -0.756282 phi -2.75482 E 120.153, New Pt 92.5719 eta -0.756282 phi -2.75482 E 120.738, 
+
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECUp01sigma: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1.00948
+[JetEnergyCorrector.cc] scale = 1.00948, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.8873 eta -0.756282 phi -2.75482 E 122.454, 
+  JERCentral: Jet has pt=93.8873 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=93.8873 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=94.656
+[JetSmear.cc] Jet Pt 93.8873 eta -0.756282 phi -2.75482 E 122.454, New Pt 94.656 eta -0.756282 phi -2.75482 E 123.457, 
+
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECCentral: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, 
+  JERDown01sigma: Jet has pt=93.0053 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=93.0053 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1332 to get new pt=93.452
+[JetSmear.cc] Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.452 eta -0.756282 phi -2.75482 E 121.886, 
+
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECCentral: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, 
+  JERUp01sigma: Jet has pt=93.0053 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=93.0053 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.2299 to get new pt=93.7762
+[JetSmear.cc] Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.7762 eta -0.756282 phi -2.75482 E 122.309, 
+
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECCentral: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=93.6139
+[JetSmear.cc] Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.6139 eta -0.756282 phi -2.75482 E 122.098, 
+
+ DOING JEC! We get this jec from the corrector: 1.03359
+    ... previous jec was: 1.03359
+  JECCentral: Jet has pt= 93.0053 eta=-0.756282 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=93.0053 eta=-0.756282 genpt=89.6518 and we apply a scale_factor to (recpt-genpt) of 1.1815 to get new pt=93.6139
+[JetSmear.cc] Jet Pt 93.0053 eta -0.756282 phi -2.75482 E 121.304, New Pt 93.6139 eta -0.756282 phi -2.75482 E 122.098, 
+
+#--------------------------------------------------
+# 6th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECDown01sigma: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 0.935904
+[JetEnergyCorrector.cc] scale = 0.935904, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 22.4775 eta -3.44471 phi 2.83654 E 352.543, 
+  JERCentral: Jet has pt=22.4775 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=22.4775 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.250875 scale_factor=1.1542 extra_smear_width=0.144591 --> escale=0.780409 to get new pt 17.5416
+[JetSmear.cc] escale = 0.780409, Jet Pt 22.4775 eta -3.44471 phi 2.83654 E 352.543, New Pt 17.5416 eta -3.44471 phi 2.83654 E 275.127, 
+
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECUp01sigma: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1.0641
+[JetEnergyCorrector.cc] scale = 1.0641, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 25.5563 eta -3.44471 phi 2.83654 E 400.831, 
+  JERCentral: Jet has pt=25.5563 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=25.5563 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.227329 scale_factor=1.1542 extra_smear_width=0.131021 --> escale=0.801018 to get new pt 20.4711
+[JetSmear.cc] escale = 0.801018, Jet Pt 25.5563 eta -3.44471 phi 2.83654 E 400.831, New Pt 20.4711 eta -3.44471 phi 2.83654 E 321.073, 
+
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECCentral: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, 
+  JERDown01sigma: Jet has pt=24.0169 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=24.0169 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.238265 scale_factor=1.0019 extra_smear_width=0.0146944 --> escale=0.977684 to get new pt 23.4809
+[JetSmear.cc] escale = 0.977684, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 23.4809 eta -3.44471 phi 2.83654 E 368.281, 
+
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECCentral: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, 
+  JERUp01sigma: Jet has pt=24.0169 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=24.0169 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.238265 scale_factor=1.3066 extra_smear_width=0.20037 --> escale=0.695698 to get new pt 16.7085
+[JetSmear.cc] escale = 0.695698, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 16.7085 eta -3.44471 phi 2.83654 E 262.06, 
+
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECCentral: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.238265 scale_factor=1.1542 extra_smear_width=0.137324 --> escale=0.791446 to get new pt 19.0081
+[JetSmear.cc] escale = 0.791446, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 19.0081 eta -3.44471 phi 2.83654 E 298.127, 
+
+ DOING JEC! We get this jec from the corrector: 0.767121
+    ... previous jec was: 0.767121
+  JECCentral: Jet has pt= 24.0169 eta=-3.44471 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=24.0169 eta=-3.44471 NO GEN MATCH  rnd=-1.5187 r=0.238265 scale_factor=1.1542 extra_smear_width=0.137324 --> escale=0.791446 to get new pt 19.0081
+[JetSmear.cc] escale = 0.791446, Jet Pt 24.0169 eta -3.44471 phi 2.83654 E 376.687, New Pt 19.0081 eta -3.44471 phi 2.83654 E 298.127, 
+
+#--------------------------------------------------
+# 7th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECDown01sigma: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 0.969596
+[JetEnergyCorrector.cc] scale = 0.969596, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.0818 eta 1.19715 phi -0.56644 E 32.9211, 
+  JERCentral: Jet has pt=18.0818 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=18.0818 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.1137 to get new pt=18.2062
+[JetSmear.cc] Jet Pt 18.0818 eta 1.19715 phi -0.56644 E 32.9211, New Pt 18.2062 eta 1.19715 phi -0.56644 E 33.1477, 
+
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECUp01sigma: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1.0304
+[JetEnergyCorrector.cc] scale = 1.0304, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 19.2158 eta 1.19715 phi -0.56644 E 34.9857, 
+  JERCentral: Jet has pt=19.2158 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=19.2158 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.1137 to get new pt=19.4692
+[JetSmear.cc] Jet Pt 19.2158 eta 1.19715 phi -0.56644 E 34.9857, New Pt 19.4692 eta 1.19715 phi -0.56644 E 35.447, 
+
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECCentral: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, 
+  JERDown01sigma: Jet has pt=18.6488 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=18.6488 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 0.974 to get new pt=18.6056
+[JetSmear.cc] Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6056 eta 1.19715 phi -0.56644 E 33.8747, 
+
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECCentral: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, 
+  JERUp01sigma: Jet has pt=18.6488 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=18.6488 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.2533 to get new pt=19.0697
+[JetSmear.cc] Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 19.0697 eta 1.19715 phi -0.56644 E 34.7197, 
+
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECCentral: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, 
+  JERCentral: Jet has pt=18.6488 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=18.6488 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.1137 to get new pt=18.8377
+[JetSmear.cc] Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.8377 eta 1.19715 phi -0.56644 E 34.2974, 
+
+ DOING JEC! We get this jec from the corrector: 0.986348
+    ... previous jec was: 0.986349
+  JECCentral: Jet has pt= 18.6488 eta=1.19715 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, 
+  JERCentral: Jet has pt=18.6488 eta=1.19715
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=18.6488 eta=1.19715 genpt=16.9871 and we apply a scale_factor to (recpt-genpt) of 1.1137 to get new pt=18.8377
+[JetSmear.cc] Jet Pt 18.6488 eta 1.19715 phi -0.56644 E 33.9534, New Pt 18.8377 eta 1.19715 phi -0.56644 E 34.2974, 
+
+#--------------------------------------------------
+# 8th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECDown01sigma: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 0.96832
+[JetEnergyCorrector.cc] scale = 0.96832, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 15.8991 eta -0.317574 phi -0.683876 E 17.0184, 
+  JERCentral: Jet has pt=15.8991 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.8991 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.261626 scale_factor=1.1432 extra_smear_width=0.144939 --> escale=1.11921 to get new pt 17.7945
+[JetSmear.cc] escale = 1.11921, Jet Pt 15.8991 eta -0.317574 phi -0.683876 E 17.0184, New Pt 17.7945 eta -0.317574 phi -0.683876 E 19.0472, 
+
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECUp01sigma: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1.03168
+[JetEnergyCorrector.cc] scale = 1.03168, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.9395 eta -0.317574 phi -0.683876 E 18.132, 
+  JERCentral: Jet has pt=16.9395 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=16.9395 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.252371 scale_factor=1.1432 extra_smear_width=0.139811 --> escale=1.115 to get new pt 18.8874
+[JetSmear.cc] escale = 1.115, Jet Pt 16.9395 eta -0.317574 phi -0.683876 E 18.132, New Pt 18.8874 eta -0.317574 phi -0.683876 E 20.217, 
+
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECCentral: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, 
+  JERDown01sigma: Jet has pt=16.4193 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=16.4193 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.256866 scale_factor=1.121 extra_smear_width=0.130128 --> escale=1.10703 to get new pt 18.1767
+[JetSmear.cc] escale = 1.10703, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 18.1767 eta -0.317574 phi -0.683876 E 19.4563, 
+
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECCentral: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, 
+  JERUp01sigma: Jet has pt=16.4193 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=16.4193 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.256866 scale_factor=1.1654 extra_smear_width=0.153725 --> escale=1.12644 to get new pt 18.4953
+[JetSmear.cc] escale = 1.12644, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 18.4953 eta -0.317574 phi -0.683876 E 19.7974, 
+
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECCentral: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.256866 scale_factor=1.1432 extra_smear_width=0.142302 --> escale=1.11704 to get new pt 18.3411
+[JetSmear.cc] escale = 1.11704, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 18.3411 eta -0.317574 phi -0.683876 E 19.6322, 
+
+ DOING JEC! We get this jec from the corrector: 0.980321
+    ... previous jec was: 0.980321
+  JECCentral: Jet has pt= 16.4193 eta=-0.317574 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=16.4193 eta=-0.317574 NO GEN MATCH  rnd=0.822502 r=0.256866 scale_factor=1.1432 extra_smear_width=0.142302 --> escale=1.11704 to get new pt 18.3411
+[JetSmear.cc] escale = 1.11704, Jet Pt 16.4193 eta -0.317574 phi -0.683876 E 17.5752, New Pt 18.3411 eta -0.317574 phi -0.683876 E 19.6322, 
+
+#--------------------------------------------------
+# 9th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECDown01sigma: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 0.910518
+[JetEnergyCorrector.cc] scale = 0.910518, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 14.5358 eta 3.30358 phi 1.21006 E 198.062, 
+  JERCentral: Jet has pt=14.5358 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=14.5358 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.353027 scale_factor=1.1542 extra_smear_width=0.203467 --> escale=1.14151 to get new pt 16.5927
+[JetSmear.cc] escale = 1.14151, Jet Pt 14.5358 eta 3.30358 phi 1.21006 E 198.062, New Pt 16.5927 eta 3.30358 phi 1.21006 E 226.089, 
+
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECUp01sigma: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1.08948
+[JetEnergyCorrector.cc] scale = 1.08948, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 17.3928 eta 3.30358 phi 1.21006 E 236.991, 
+  JERCentral: Jet has pt=17.3928 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=17.3928 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.310116 scale_factor=1.1542 extra_smear_width=0.178735 --> escale=1.12431 to get new pt 19.5549
+[JetSmear.cc] escale = 1.12431, Jet Pt 17.3928 eta 3.30358 phi 1.21006 E 236.991, New Pt 19.5549 eta 3.30358 phi 1.21006 E 266.451, 
+
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECCentral: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, 
+  JERDown01sigma: Jet has pt=15.9643 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=15.9643 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.334101 scale_factor=1.0019 extra_smear_width=0.0206048 --> escale=1.01433 to get new pt 16.1931
+[JetSmear.cc] escale = 1.01433, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 16.1931 eta 3.30358 phi 1.21006 E 220.644, 
+
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECCentral: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, 
+  JERUp01sigma: Jet has pt=15.9643 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=15.9643 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.334101 scale_factor=1.3066 extra_smear_width=0.280964 --> escale=1.19541 to get new pt 19.0838
+[JetSmear.cc] escale = 1.19541, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 19.0838 eta 3.30358 phi 1.21006 E 260.032, 
+
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECCentral: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, 
+  JERCentral: Jet has pt=15.9643 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.9643 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.334101 scale_factor=1.1542 extra_smear_width=0.192559 --> escale=1.13392 to get new pt 18.1022
+[JetSmear.cc] escale = 1.13392, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 18.1022 eta 3.30358 phi 1.21006 E 246.658, 
+
+ DOING JEC! We get this jec from the corrector: 0.697627
+    ... previous jec was: 0.697627
+  JECCentral: Jet has pt= 15.9643 eta=3.30358 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, 
+  JERCentral: Jet has pt=15.9643 eta=3.30358
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.9643 eta=3.30358 NO GEN MATCH  rnd=0.695482 r=0.334101 scale_factor=1.1542 extra_smear_width=0.192559 --> escale=1.13392 to get new pt 18.1022
+[JetSmear.cc] escale = 1.13392, Jet Pt 15.9643 eta 3.30358 phi 1.21006 E 217.527, New Pt 18.1022 eta 3.30358 phi 1.21006 E 246.658, 
+
+#--------------------------------------------------
+# 10th jet
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECDown01sigma: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 0.847329
+[JetEnergyCorrector.cc] scale = 0.847329, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 12.9103 eta 2.85755 phi -0.843491 E 112.866, 
+  JERCentral: Jet has pt=12.9103 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=12.9103 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.594947 scale_factor=2.2923 extra_smear_width=1.22718 --> escale=-2.23676 to get new pt -28.8772
+[JetSmear.cc] escale = -2.23676, Jet Pt 12.9103 eta 2.85755 phi -0.843491 E 112.866, New Pt 28.8772 eta -2.85755 phi 2.2981 E -252.454, 
+
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECUp01sigma: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1.15267
+[JetEnergyCorrector.cc] scale = 1.15267, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 17.5626 eta 2.85755 phi -0.843491 E 153.538, 
+  JERCentral: Jet has pt=17.5626 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=17.5626 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.511285 scale_factor=2.2923 extra_smear_width=1.05462 --> escale=-1.78161 to get new pt -31.2896
+[JetSmear.cc] escale = -1.78161, Jet Pt 17.5626 eta 2.85755 phi -0.843491 E 153.538, New Pt 31.2896 eta -2.85755 phi 2.2981 E -273.544, 
+
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECCentral: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, 
+  JERDown01sigma: Jet has pt=15.2364 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=15.2364 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.586031 scale_factor=1.918 extra_smear_width=0.959146 --> escale=-1.5298 to get new pt -23.3087
+[JetSmear.cc] escale = -1.5298, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 23.3087 eta -2.85755 phi 2.2981 E -203.772, 
+
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECCentral: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, 
+  JERUp01sigma: Jet has pt=15.2364 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=15.2364 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.586031 scale_factor=2.6665 extra_smear_width=1.4486 --> escale=-2.82077 to get new pt -42.9784
+[JetSmear.cc] escale = -2.82077, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 42.9784 eta -2.85755 phi 2.2981 E -375.731, 
+
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECCentral: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, 
+  JERCentral: Jet has pt=15.2364 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.2364 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.586031 scale_factor=2.2923 extra_smear_width=1.20879 --> escale=-2.18826 to get new pt -33.3412
+[JetSmear.cc] escale = -2.18826, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 33.3412 eta -2.85755 phi 2.2981 E -291.48, 
+
+ DOING JEC! We get this jec from the corrector: 0.97261
+    ... previous jec was: 0.97261
+  JECCentral: Jet has pt= 15.2364 eta=2.85755 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, 
+  JERCentral: Jet has pt=15.2364 eta=2.85755
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=15.2364 eta=2.85755 NO GEN MATCH  rnd=-2.63755 r=0.586031 scale_factor=2.2923 extra_smear_width=1.20879 --> escale=-2.18826 to get new pt -33.3412
+[JetSmear.cc] escale = -2.18826, Jet Pt 15.2364 eta 2.85755 phi -0.843491 E 133.202, New Pt 33.3412 eta -2.85755 phi 2.2981 E -291.48, 
+
+#--------------------------------------------------
+# other jet info
+#--------------------------------------------------
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.96685 to get new pt 85.7826
+[JetSmear.cc] escale = 0.96685, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 85.7826 eta -0.381451 phi 2.78421 E 93.6477, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=0.966714 to get new pt 84.9365
+[JetSmear.cc] escale = 0.966714, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 84.9365 eta -0.381451 phi 2.78421 E 92.7241, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=0.966983 to get new pt 86.6287
+[JetSmear.cc] escale = 0.966983, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 86.6287 eta -0.381451 phi 2.78421 E 94.5714, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=0.969686 to get new pt 86.0342
+[JetSmear.cc] escale = 0.969686, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 86.0342 eta -0.381451 phi 2.78421 E 93.9224, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=0.964188 to get new pt 85.5465
+[JetSmear.cc] escale = 0.964188, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 85.5465 eta -0.381451 phi 2.78421 E 93.39, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.96685 to get new pt 85.7826
+[JetSmear.cc] escale = 0.96685, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 85.7826 eta -0.381451 phi 2.78421 E 93.6477, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.525146 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.96685 to get new pt 85.7826
+[JetSmear.cc] escale = 0.96685, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 85.7826 eta -0.381451 phi 2.78421 E 93.6477, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.00351 to get new pt 89.035
+[JetSmear.cc] escale = 1.00351, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.035 eta -0.381451 phi 2.78421 E 97.1984, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=1.00352 to get new pt 88.1705
+[JetSmear.cc] escale = 1.00352, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 88.1705 eta -0.381451 phi 2.78421 E 96.2547, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=1.00349 to get new pt 89.8995
+[JetSmear.cc] escale = 1.00349, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 89.8995 eta -0.381451 phi 2.78421 E 98.1421, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=1.00321 to get new pt 89.0084
+[JetSmear.cc] escale = 1.00321, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.0084 eta -0.381451 phi 2.78421 E 97.1693, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=1.00379 to get new pt 89.06
+[JetSmear.cc] escale = 1.00379, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.06 eta -0.381451 phi 2.78421 E 97.2257, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.00351 to get new pt 89.035
+[JetSmear.cc] escale = 1.00351, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.035 eta -0.381451 phi 2.78421 E 97.1984, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.0555654 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.00351 to get new pt 89.035
+[JetSmear.cc] escale = 1.00351, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.035 eta -0.381451 phi 2.78421 E 97.1984, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.998827 to get new pt 88.6197
+[JetSmear.cc] escale = 0.998827, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.6197 eta -0.381451 phi 2.78421 E 96.7451, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=0.998822 to get new pt 87.7576
+[JetSmear.cc] escale = 0.998822, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 87.7576 eta -0.381451 phi 2.78421 E 95.8039, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=0.998832 to get new pt 89.4819
+[JetSmear.cc] escale = 0.998832, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 89.4819 eta -0.381451 phi 2.78421 E 97.6862, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=0.998927 to get new pt 88.6286
+[JetSmear.cc] escale = 0.998927, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.6286 eta -0.381451 phi 2.78421 E 96.7548, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=0.998733 to get new pt 88.6114
+[JetSmear.cc] escale = 0.998733, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.6114 eta -0.381451 phi 2.78421 E 96.7359, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.998827 to get new pt 88.6197
+[JetSmear.cc] escale = 0.998827, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.6197 eta -0.381451 phi 2.78421 E 96.7451, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.0185807 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.998827 to get new pt 88.6197
+[JetSmear.cc] escale = 0.998827, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.6197 eta -0.381451 phi 2.78421 E 96.7451, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECCentral: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113138 scale_factor=1.1432 extra_smear_width=0.0626777 --> escale=0.980475 to get new pt 88.489
+[JetSmear.cc] escale = 0.980475, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 88.489 eta -0.387518 phi 2.78088 E 96.91, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECDown01sigma: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 0.990383
+[JetEnergyCorrector.cc] scale = 0.990383, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 89.3832 eta -0.387518 phi 2.78088 E 97.8893, 
+  JERCentral: Jet has pt=89.3832 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.3832 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113596 scale_factor=1.1432 extra_smear_width=0.0629311 --> escale=0.980396 to get new pt 87.631
+[JetSmear.cc] escale = 0.980396, Jet Pt 89.3832 eta -0.387518 phi 2.78088 E 97.8893, New Pt 87.631 eta -0.387518 phi 2.78088 E 95.9703, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECUp01sigma: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1.00962
+[JetEnergyCorrector.cc] scale = 1.00962, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 91.1192 eta -0.387518 phi 2.78088 E 99.7905, 
+  JERCentral: Jet has pt=91.1192 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=91.1192 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.112688 scale_factor=1.1432 extra_smear_width=0.062428 --> escale=0.980553 to get new pt 89.3472
+[JetSmear.cc] escale = 0.980553, Jet Pt 91.1192 eta -0.387518 phi 2.78088 E 99.7905, New Pt 89.3472 eta -0.387518 phi 2.78088 E 97.8498, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECCentral: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, 
+  JERDown01sigma: Jet has pt=90.2512 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=90.2512 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113138 scale_factor=1.121 extra_smear_width=0.0573157 --> escale=0.982145 to get new pt 88.6398
+[JetSmear.cc] escale = 0.982145, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 88.6398 eta -0.387518 phi 2.78088 E 97.0751, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECCentral: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, 
+  JERUp01sigma: Jet has pt=90.2512 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=90.2512 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113138 scale_factor=1.1654 extra_smear_width=0.0677091 --> escale=0.978907 to get new pt 88.3476
+[JetSmear.cc] escale = 0.978907, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 88.3476 eta -0.387518 phi 2.78088 E 96.7551, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECCentral: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113138 scale_factor=1.1432 extra_smear_width=0.0626777 --> escale=0.980475 to get new pt 88.489
+[JetSmear.cc] escale = 0.980475, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 88.489 eta -0.387518 phi 2.78088 E 96.91, 
+
+ DOING JEC! We get this jec from the corrector: 1.02778
+    ... previous jec was: 1.02778
+  JECCentral: Jet has pt= 90.2512 eta=-0.387518 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=90.2512 eta=-0.387518 NO GEN MATCH  rnd=-0.311518 r=0.113138 scale_factor=1.1432 extra_smear_width=0.0626777 --> escale=0.980475 to get new pt 88.489
+[JetSmear.cc] escale = 0.980475, Jet Pt 90.2512 eta -0.387518 phi 2.78088 E 98.8399, New Pt 88.489 eta -0.387518 phi 2.78088 E 96.91, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.991264 to get new pt 87.9487
+[JetSmear.cc] escale = 0.991264, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.9487 eta -0.381451 phi 2.78421 E 96.0125, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=0.991228 to get new pt 87.0904
+[JetSmear.cc] escale = 0.991228, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 87.0904 eta -0.381451 phi 2.78421 E 95.0754, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=0.991299 to get new pt 88.807
+[JetSmear.cc] escale = 0.991299, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 88.807 eta -0.381451 phi 2.78421 E 96.9495, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=0.992011 to get new pt 88.015
+[JetSmear.cc] escale = 0.992011, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.015 eta -0.381451 phi 2.78421 E 96.0849, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=0.990562 to get new pt 87.8865
+[JetSmear.cc] escale = 0.990562, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8865 eta -0.381451 phi 2.78421 E 95.9445, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.991264 to get new pt 87.9487
+[JetSmear.cc] escale = 0.991264, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.9487 eta -0.381451 phi 2.78421 E 96.0125, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.138395 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.991264 to get new pt 87.9487
+[JetSmear.cc] escale = 0.991264, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.9487 eta -0.381451 phi 2.78421 E 96.0125, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.946723 to get new pt 83.9969
+[JetSmear.cc] escale = 0.946723, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 83.9969 eta -0.381451 phi 2.78421 E 91.6983, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=0.946505 to get new pt 83.161
+[JetSmear.cc] escale = 0.946505, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 83.161 eta -0.381451 phi 2.78421 E 90.7858, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=0.946938 to get new pt 84.8329
+[JetSmear.cc] escale = 0.946938, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 84.8329 eta -0.381451 phi 2.78421 E 92.611, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=0.951281 to get new pt 84.4013
+[JetSmear.cc] escale = 0.951281, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 84.4013 eta -0.381451 phi 2.78421 E 92.1398, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=0.942447 to get new pt 83.6174
+[JetSmear.cc] escale = 0.942447, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 83.6174 eta -0.381451 phi 2.78421 E 91.2841, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.946723 to get new pt 83.9969
+[JetSmear.cc] escale = 0.946723, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 83.9969 eta -0.381451 phi 2.78421 E 91.6983, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=-0.843971 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=0.946723 to get new pt 83.9969
+[JetSmear.cc] escale = 0.946723, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 83.9969 eta -0.381451 phi 2.78421 E 91.6983, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.03911 to get new pt 92.1934
+[JetSmear.cc] escale = 1.03911, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 92.1934 eta -0.381451 phi 2.78421 E 100.646, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=1.03927 to get new pt 91.311
+[JetSmear.cc] escale = 1.03927, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 91.311 eta -0.381451 phi 2.78421 E 99.6831, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=1.03895 to get new pt 93.0757
+[JetSmear.cc] escale = 1.03895, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 93.0757 eta -0.381451 phi 2.78421 E 101.61, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=1.03576 to get new pt 91.8966
+[JetSmear.cc] escale = 1.03576, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 91.8966 eta -0.381451 phi 2.78421 E 100.322, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=1.04224 to get new pt 92.4719
+[JetSmear.cc] escale = 1.04224, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 92.4719 eta -0.381451 phi 2.78421 E 100.95, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.03911 to get new pt 92.1934
+[JetSmear.cc] escale = 1.03911, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 92.1934 eta -0.381451 phi 2.78421 E 100.646, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=0.619478 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.03911 to get new pt 92.1934
+[JetSmear.cc] escale = 1.03911, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 92.1934 eta -0.381451 phi 2.78421 E 100.646, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECCentral: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113592 scale_factor=1.1432 extra_smear_width=0.0629287 --> escale=1.08896 to get new pt 97.3437
+[JetSmear.cc] escale = 1.08896, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 97.3437 eta -0.380977 phi 2.78177 E 106.292, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECDown01sigma: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 0.990323
+[JetEnergyCorrector.cc] scale = 0.990323, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 88.5263 eta -0.380977 phi 2.78177 E 96.664, 
+  JERCentral: Jet has pt=88.5263 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.5263 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.114054 scale_factor=1.1432 extra_smear_width=0.0631851 --> escale=1.08932 to get new pt 96.4337
+[JetSmear.cc] escale = 1.08932, Jet Pt 88.5263 eta -0.380977 phi 2.78177 E 96.664, New Pt 96.4337 eta -0.380977 phi 2.78177 E 105.298, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECUp01sigma: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1.00968
+[JetEnergyCorrector.cc] scale = 1.00968, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 90.2564 eta -0.380977 phi 2.78177 E 98.5532, 
+  JERCentral: Jet has pt=90.2564 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=90.2564 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113136 scale_factor=1.1432 extra_smear_width=0.0626762 --> escale=1.0886 to get new pt 98.2534
+[JetSmear.cc] escale = 1.0886, Jet Pt 90.2564 eta -0.380977 phi 2.78177 E 98.5532, New Pt 98.2534 eta -0.380977 phi 2.78177 E 107.285, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECCentral: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, 
+  JERDown01sigma: Jet has pt=89.3914 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=89.3914 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113592 scale_factor=1.121 extra_smear_width=0.0575452 --> escale=1.08135 to get new pt 96.6633
+[JetSmear.cc] escale = 1.08135, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 96.6633 eta -0.380977 phi 2.78177 E 105.549, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECCentral: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, 
+  JERUp01sigma: Jet has pt=89.3914 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=89.3914 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113592 scale_factor=1.1654 extra_smear_width=0.0679803 --> escale=1.0961 to get new pt 97.982
+[JetSmear.cc] escale = 1.0961, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 97.982 eta -0.380977 phi 2.78177 E 106.989, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECCentral: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113592 scale_factor=1.1432 extra_smear_width=0.0629287 --> escale=1.08896 to get new pt 97.3437
+[JetSmear.cc] escale = 1.08896, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 97.3437 eta -0.380977 phi 2.78177 E 106.292, 
+
+ DOING JEC! We get this jec from the corrector: 1.02749
+    ... previous jec was: 1.02749
+  JECCentral: Jet has pt= 89.3914 eta=-0.380977 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.3914 eta=-0.380977 NO GEN MATCH  rnd=1.41367 r=0.113592 scale_factor=1.1432 extra_smear_width=0.0629287 --> escale=1.08896 to get new pt 97.3437
+[JetSmear.cc] escale = 1.08896, Jet Pt 89.3914 eta -0.380977 phi 2.78177 E 97.6086, New Pt 97.3437 eta -0.380977 phi 2.78177 E 106.292, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECCentral: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113759 scale_factor=1.1432 extra_smear_width=0.0630217 --> escale=0.993698 to get new pt 88.5148
+[JetSmear.cc] escale = 0.993698, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.5148 eta -0.380602 phi 2.78337 E 96.6439, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECDown01sigma: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 0.990301
+[JetEnergyCorrector.cc] scale = 0.990301, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.2122 eta -0.380602 phi 2.78337 E 96.3135, 
+  JERCentral: Jet has pt=88.2122 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.2122 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.114224 scale_factor=1.1432 extra_smear_width=0.0632792 --> escale=0.993672 to get new pt 87.6541
+[JetSmear.cc] escale = 0.993672, Jet Pt 88.2122 eta -0.380602 phi 2.78337 E 96.3135, New Pt 87.6541 eta -0.380602 phi 2.78337 E 95.704, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECUp01sigma: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1.0097
+[JetEnergyCorrector.cc] scale = 1.0097, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.9401 eta -0.380602 phi 2.78337 E 98.2001, 
+  JERCentral: Jet has pt=89.9401 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.9401 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113302 scale_factor=1.1432 extra_smear_width=0.0627681 --> escale=0.993723 to get new pt 89.3756
+[JetSmear.cc] escale = 0.993723, Jet Pt 89.9401 eta -0.380602 phi 2.78337 E 98.2001, New Pt 89.3756 eta -0.380602 phi 2.78337 E 97.5837, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECCentral: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, 
+  JERDown01sigma: Jet has pt=89.0762 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=89.0762 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113759 scale_factor=1.121 extra_smear_width=0.0576302 --> escale=0.994237 to get new pt 88.5629
+[JetSmear.cc] escale = 0.994237, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.5629 eta -0.380602 phi 2.78337 E 96.6963, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECCentral: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, 
+  JERUp01sigma: Jet has pt=89.0762 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=89.0762 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113759 scale_factor=1.1654 extra_smear_width=0.0680807 --> escale=0.993192 to get new pt 88.4698
+[JetSmear.cc] escale = 0.993192, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.4698 eta -0.380602 phi 2.78337 E 96.5947, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECCentral: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113759 scale_factor=1.1432 extra_smear_width=0.0630217 --> escale=0.993698 to get new pt 88.5148
+[JetSmear.cc] escale = 0.993698, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.5148 eta -0.380602 phi 2.78337 E 96.6439, 
+
+ DOING JEC! We get this jec from the corrector: 1.02774
+    ... previous jec was: 1.02774
+  JECCentral: Jet has pt= 89.0762 eta=-0.380602 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.0762 eta=-0.380602 NO GEN MATCH  rnd=-0.0999956 r=0.113759 scale_factor=1.1432 extra_smear_width=0.0630217 --> escale=0.993698 to get new pt 88.5148
+[JetSmear.cc] escale = 0.993698, Jet Pt 89.0762 eta -0.380602 phi 2.78337 E 97.2568, New Pt 88.5148 eta -0.380602 phi 2.78337 E 96.6439, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.1684 to get new pt 103.665
+[JetSmear.cc] escale = 1.1684, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 103.665 eta -0.381451 phi 2.78421 E 113.169, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECDown01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 0.990276
+[JetEnergyCorrector.cc] scale = 0.990276, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=87.8611 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.114415 scale_factor=1.1432 extra_smear_width=0.0633849 --> escale=1.16909 to get new pt 102.717
+[JetSmear.cc] escale = 1.16909, Jet Pt 87.8611 eta -0.381451 phi 2.78421 E 95.9168, New Pt 102.717 eta -0.381451 phi 2.78421 E 112.135, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECUp01sigma: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1.00972
+[JetEnergyCorrector.cc] scale = 1.00972, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.5865 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113488 scale_factor=1.1432 extra_smear_width=0.0628714 --> escale=1.16772 to get new pt 104.612
+[JetSmear.cc] escale = 1.16772, Jet Pt 89.5865 eta -0.381451 phi 2.78421 E 97.8005, New Pt 104.612 eta -0.381451 phi 2.78421 E 114.203, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113948 scale_factor=1.121 extra_smear_width=0.0577258 --> escale=1.15399 to get new pt 102.386
+[JetSmear.cc] escale = 1.15399, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 102.386 eta -0.381451 phi 2.78421 E 111.774, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113948 scale_factor=1.1654 extra_smear_width=0.0681936 --> escale=1.18191 to get new pt 104.864
+[JetSmear.cc] escale = 1.18191, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 104.864 eta -0.381451 phi 2.78421 E 114.479, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.1684 to get new pt 103.665
+[JetSmear.cc] escale = 1.1684, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 103.665 eta -0.381451 phi 2.78421 E 113.169, 
+
+ DOING JEC! We get this jec from the corrector: 1.02726
+    ... previous jec was: 1.02726
+  JECCentral: Jet has pt= 88.7238 eta=-0.381451 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.7238 eta=-0.381451 NO GEN MATCH  rnd=2.66762 r=0.113948 scale_factor=1.1432 extra_smear_width=0.0631262 --> escale=1.1684 to get new pt 103.665
+[JetSmear.cc] escale = 1.1684, Jet Pt 88.7238 eta -0.381451 phi 2.78421 E 96.8587, New Pt 103.665 eta -0.381451 phi 2.78421 E 113.169, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECCentral: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, 
+  JERCentral: Jet has pt=89.121 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.121 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113735 scale_factor=1.1432 extra_smear_width=0.0630085 --> escale=0.845274 to get new pt 75.3316
+[JetSmear.cc] escale = 0.845274, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 75.3316 eta -0.380702 phi 2.7835 E 82.2439, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECDown01sigma: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 0.990304
+[JetEnergyCorrector.cc] scale = 0.990304, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 88.2569 eta -0.380702 phi 2.7835 E 96.3552, 
+  JERCentral: Jet has pt=88.2569 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=88.2569 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.1142 scale_factor=1.1432 extra_smear_width=0.0632658 --> escale=0.844642 to get new pt 74.5455
+[JetSmear.cc] escale = 0.844642, Jet Pt 88.2569 eta -0.380702 phi 2.7835 E 96.3552, New Pt 74.5455 eta -0.380702 phi 2.7835 E 81.3856, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECUp01sigma: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1.0097
+[JetEnergyCorrector.cc] scale = 1.0097, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.9851 eta -0.380702 phi 2.7835 E 98.242, 
+  JERCentral: Jet has pt=89.9851 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.9851 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113278 scale_factor=1.1432 extra_smear_width=0.062755 --> escale=0.845896 to get new pt 76.118
+[JetSmear.cc] escale = 0.845896, Jet Pt 89.9851 eta -0.380702 phi 2.7835 E 98.242, New Pt 76.118 eta -0.380702 phi 2.7835 E 83.1025, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECCentral: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, 
+  JERDown01sigma: Jet has pt=89.121 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERDown01sigma: Jet has pt=89.121 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113735 scale_factor=1.121 extra_smear_width=0.0576181 --> escale=0.85851 to get new pt 76.5113
+[JetSmear.cc] escale = 0.85851, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 76.5113 eta -0.380702 phi 2.7835 E 83.5319, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECCentral: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, 
+  JERUp01sigma: Jet has pt=89.121 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERUp01sigma: Jet has pt=89.121 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113735 scale_factor=1.1654 extra_smear_width=0.0680664 --> escale=0.832853 to get new pt 74.2247
+[JetSmear.cc] escale = 0.832853, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 74.2247 eta -0.380702 phi 2.7835 E 81.0354, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECCentral: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, 
+  JERCentral: Jet has pt=89.121 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.121 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113735 scale_factor=1.1432 extra_smear_width=0.0630085 --> escale=0.845274 to get new pt 75.3316
+[JetSmear.cc] escale = 0.845274, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 75.3316 eta -0.380702 phi 2.7835 E 82.2439, 
+
+ DOING JEC! We get this jec from the corrector: 1.02776
+    ... previous jec was: 1.02776
+  JECCentral: Jet has pt= 89.121 eta=-0.380702 and we apply a multiplicative correction of 1
+[JetEnergyCorrector.cc] scale = 1, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, 
+  JERCentral: Jet has pt=89.121 eta=-0.380702
+ GOT RESOLUTION 
+ GOT SCALE FACTOR 
+  JERCentral: Jet has pt=89.121 eta=-0.380702 NO GEN MATCH  rnd=-2.45564 r=0.113735 scale_factor=1.1432 extra_smear_width=0.0630085 --> escale=0.845274 to get new pt 75.3316
+[JetSmear.cc] escale = 0.845274, Jet Pt 89.121 eta -0.380702 phi 2.7835 E 97.2986, New Pt 75.3316 eta -0.380702 phi 2.7835 E 82.2439, 
+
+Not pass!
+Not pass!
+jet1  pt: 378.729, eta: -0.362873, phi: 2.7611, E: 409.32
+jet2  pt: 287.785, eta: -0.534227, phi: 0.266161, E: 329.953
+jet3  pt: 279.812, eta: -0.653379, phi: -0.208425, E: 341.897
+jet4  pt: 172.295, eta: -3.26563, phi: -2.18022, E: 2260.11
+jet5  pt: 93.6139, eta: -0.756282, phi: -2.75482, E: 122.098
+jet6  pt: 33.3412, eta: -2.85755, phi: 2.2981, E: -291.48
+jet7  pt: 19.0081, eta: -3.44471, phi: 2.83654, E: 298.127
+jet8  pt: 18.8377, eta: 1.19715, phi: -0.56644, E: 34.2974
+jet9  pt: 18.3411, eta: -0.317574, phi: -0.683876, E: 19.6322
+jet10 pt: 18.1022, eta: 3.30358, phi: 1.21006, E: 246.658
+jet11 pt: -999, eta: -999, phi: -999, E: -999
+jet12 pt: -999, eta: -999, phi: -999, E: -999
+jet13 pt: -999, eta: -999, phi: -999, E: -999
+jet14 pt: -999, eta: -999, phi: -999, E: -999
+jet15 pt: -999, eta: -999, phi: -999, E: -999
+07-Jun-2021 03:41:45 CEST  Closed file file:/afs/cern.ch/work/y/ykao/public/forPrafulla/rootfiles/pickevents_1_132_131039_microAOD.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1 passed = 1 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0          1          1          0          0 p
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+
+TrigReport ---------- Modules in Path: p ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          1          1          0          0 flashggDifferentialPhoIdInputsCorrection
+TrigReport     1    1          1          1          0          0 flashggDiPhotonSystematics
+TrigReport     1    2          1          1          0          0 flashggMetSystematics
+TrigReport     1    3          1          1          0          0 flashggMuonSystematics
+TrigReport     1    4          1          1          0          0 flashggElectronSystematics
+TrigReport     1    5          1          1          0          0 flashggUnpackedJets
+TrigReport     1    6          1          1          0          0 flashggJetSystematics0
+TrigReport     1    7          1          1          0          0 flashggJetSystematics1
+TrigReport     1    8          1          1          0          0 flashggJetSystematics2
+TrigReport     1    9          1          1          0          0 flashggJetSystematics3
+TrigReport     1   10          1          1          0          0 flashggJetSystematics4
+TrigReport     1   11          1          1          0          0 flashggJetSystematics5
+TrigReport     1   12          1          1          0          0 flashggJetSystematics6
+TrigReport     1   13          1          1          0          0 flashggJetSystematics7
+TrigReport     1   14          1          1          0          0 flashggJetSystematics8
+TrigReport     1   15          1          1          0          0 flashggJetSystematics9
+TrigReport     1   16          1          1          0          0 flashggJetSystematics10
+TrigReport     1   17          1          1          0          0 flashggJetSystematics11
+TrigReport     1   18          1          1          0          0 flashggPrefireDiPhotons
+TrigReport     1   19          1          1          0          0 flashggPreselectedDiPhotons
+TrigReport     1   20          1          1          0          0 flashggDiPhotonMVA
+TrigReport     1   21          1          1          0          0 flashggVBFMVA
+TrigReport     1   22          1          1          0          0 flashggVHhadMVA
+TrigReport     1   23          1          1          0          0 flashggVBFDiPhoDiJetMVA
+TrigReport     1   24          1          1          0          0 flashggUntagged
+TrigReport     1   25          1          1          0          0 flashggVBFTag
+TrigReport     1   26          1          1          0          0 flashggTTHDiLeptonTag
+TrigReport     1   27          1          1          0          0 flashggTTHLeptonicTag
+TrigReport     1   28          1          1          0          0 flashggTHQLeptonicTag
+TrigReport     1   29          1          1          0          0 flashggTHQHadronicTag
+TrigReport     1   30          1          1          0          0 flashggTTHHadronicTag
+TrigReport     1   31          1          1          0          0 flashggVHMetTag
+TrigReport     1   32          1          1          0          0 flashggWHLeptonicTag
+TrigReport     1   33          1          1          0          0 flashggZHLeptonicTag
+TrigReport     1   34          1          1          0          0 flashggVHHadronicTag
+TrigReport     1   35          1          1          0          0 flashggTagSorter
+TrigReport     1   36          1          1          0          0 flashggSystTagMerger
+TrigReport     1   37          1          1          0          0 tagsDumper
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport          1          1          1          0          0 TriggerResults
+TrigReport          1          1          1          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport          1          1          1          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport          1          1          1          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport          1          1          1          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport          1          1          1          0          0 flashggDiPhotonMVA
+TrigReport          1          1          1          0          0 flashggDiPhotonSystematics
+TrigReport          1          1          1          0          0 flashggDifferentialPhoIdInputsCorrection
+TrigReport          1          1          1          0          0 flashggElectronSystematics
+TrigReport          1          1          1          0          0 flashggJetSystematics0
+TrigReport          1          1          1          0          0 flashggJetSystematics1
+TrigReport          1          1          1          0          0 flashggJetSystematics10
+TrigReport          1          1          1          0          0 flashggJetSystematics11
+TrigReport          1          1          1          0          0 flashggJetSystematics2
+TrigReport          1          1          1          0          0 flashggJetSystematics3
+TrigReport          1          1          1          0          0 flashggJetSystematics4
+TrigReport          1          1          1          0          0 flashggJetSystematics5
+TrigReport          1          1          1          0          0 flashggJetSystematics6
+TrigReport          1          1          1          0          0 flashggJetSystematics7
+TrigReport          1          1          1          0          0 flashggJetSystematics8
+TrigReport          1          1          1          0          0 flashggJetSystematics9
+TrigReport          1          1          1          0          0 flashggMetSystematics
+TrigReport          1          1          1          0          0 flashggMuonSystematics
+TrigReport          1          1          1          0          0 flashggPrefireDiPhotons
+TrigReport          1          1          1          0          0 flashggPreselectedDiPhotons
+TrigReport          1          1          1          0          0 flashggSystTagMerger
+TrigReport          1          1          1          0          0 flashggTHQHadronicTag
+TrigReport          1          1          1          0          0 flashggTHQLeptonicTag
+TrigReport          1          1          1          0          0 flashggTTHDiLeptonTag
+TrigReport          1          1          1          0          0 flashggTTHHadronicTag
+TrigReport          1          1          1          0          0 flashggTTHLeptonicTag
+TrigReport          1          1          1          0          0 flashggTagSorter
+TrigReport          1          1          1          0          0 flashggUnpackedJets
+TrigReport          1          1          1          0          0 flashggUntagged
+TrigReport          1          1          1          0          0 flashggVBFDiPhoDiJetMVA
+TrigReport          1          1          1          0          0 flashggVBFMVA
+TrigReport          1          1          1          0          0 flashggVBFTag
+TrigReport          1          1          1          0          0 flashggVHHadronicTag
+TrigReport          1          1          1          0          0 flashggVHMetTag
+TrigReport          1          1          1          0          0 flashggVHhadMVA
+TrigReport          1          1          1          0          0 flashggWHLeptonicTag
+TrigReport          1          1          1          0          0 flashggZHLeptonicTag
+TrigReport          1          1          1          0          0 p
+TrigReport          1          1          1          0          0 tagsDumper
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 69.895849
+TimeReport      event loop Real/event = 74.049087
+TimeReport     sum Streams Real/event = 73.723543
+TimeReport efficiency CPU/Real/thread = 0.943912
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  73.721320    73.721320  p
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: p ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport  69.051086    69.051086  flashggDifferentialPhoIdInputsCorrection
+TimeReport   0.227808     0.227808  flashggDiPhotonSystematics
+TimeReport   0.260579     0.260579  flashggMetSystematics
+TimeReport   0.000432     0.000432  flashggMuonSystematics
+TimeReport   0.000242     0.000242  flashggElectronSystematics
+TimeReport   0.001684     0.001684  flashggUnpackedJets
+TimeReport   0.206116     0.206116  flashggJetSystematics0
+TimeReport   0.001318     0.001318  flashggJetSystematics1
+TimeReport   0.001180     0.001180  flashggJetSystematics2
+TimeReport   0.001196     0.001196  flashggJetSystematics3
+TimeReport   0.001167     0.001167  flashggJetSystematics4
+TimeReport   0.001171     0.001171  flashggJetSystematics5
+TimeReport   0.001179     0.001179  flashggJetSystematics6
+TimeReport   0.001194     0.001194  flashggJetSystematics7
+TimeReport   0.001186     0.001186  flashggJetSystematics8
+TimeReport   0.001213     0.001213  flashggJetSystematics9
+TimeReport   0.001241     0.001241  flashggJetSystematics10
+TimeReport   0.001173     0.001173  flashggJetSystematics11
+TimeReport   0.001532     0.001532  flashggPrefireDiPhotons
+TimeReport   0.021163     0.021163  flashggPreselectedDiPhotons
+TimeReport   0.000762     0.000762  flashggDiPhotonMVA
+TimeReport   0.000534     0.000534  flashggVBFMVA
+TimeReport   0.000350     0.000350  flashggVHhadMVA
+TimeReport   0.000630     0.000630  flashggVBFDiPhoDiJetMVA
+TimeReport   0.000256     0.000256  flashggUntagged
+TimeReport   0.000956     0.000956  flashggVBFTag
+TimeReport   0.000278     0.000278  flashggTTHDiLeptonTag
+TimeReport   0.000138     0.000138  flashggTTHLeptonicTag
+TimeReport   0.016711     0.016711  flashggTHQLeptonicTag
+TimeReport   0.004086     0.004086  flashggTHQHadronicTag
+TimeReport   0.322263     0.322263  flashggTTHHadronicTag
+TimeReport   0.000173     0.000173  flashggVHMetTag
+TimeReport   0.000207     0.000207  flashggWHLeptonicTag
+TimeReport   0.000177     0.000177  flashggZHLeptonicTag
+TimeReport   0.000155     0.000155  flashggVHHadronicTag
+TimeReport   0.000924     0.000924  flashggTagSorter
+TimeReport   0.000084     0.000084  flashggSystTagMerger
+TimeReport   3.118402     3.118402  tagsDumper
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000007     0.000007     0.000007  TriggerResults
+TimeReport   0.000294     0.000294     0.000294  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000186     0.000186     0.000186  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000978     0.000978     0.000978  ak4PFCHSL2RelativeCorrector
+TimeReport   0.011157     0.011157     0.011157  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000762     0.000762     0.000762  flashggDiPhotonMVA
+TimeReport   0.227808     0.227808     0.227808  flashggDiPhotonSystematics
+TimeReport  69.051086    69.051086    69.051086  flashggDifferentialPhoIdInputsCorrection
+TimeReport   0.000242     0.000242     0.000242  flashggElectronSystematics
+TimeReport   0.206116     0.206116     0.206116  flashggJetSystematics0
+TimeReport   0.001318     0.001318     0.001318  flashggJetSystematics1
+TimeReport   0.001241     0.001241     0.001241  flashggJetSystematics10
+TimeReport   0.001173     0.001173     0.001173  flashggJetSystematics11
+TimeReport   0.001180     0.001180     0.001180  flashggJetSystematics2
+TimeReport   0.001196     0.001196     0.001196  flashggJetSystematics3
+TimeReport   0.001167     0.001167     0.001167  flashggJetSystematics4
+TimeReport   0.001171     0.001171     0.001171  flashggJetSystematics5
+TimeReport   0.001179     0.001179     0.001179  flashggJetSystematics6
+TimeReport   0.001194     0.001194     0.001194  flashggJetSystematics7
+TimeReport   0.001186     0.001186     0.001186  flashggJetSystematics8
+TimeReport   0.001213     0.001213     0.001213  flashggJetSystematics9
+TimeReport   0.260579     0.260579     0.260579  flashggMetSystematics
+TimeReport   0.000432     0.000432     0.000432  flashggMuonSystematics
+TimeReport   0.001532     0.001532     0.001532  flashggPrefireDiPhotons
+TimeReport   0.021163     0.021163     0.021163  flashggPreselectedDiPhotons
+TimeReport   0.000084     0.000084     0.000084  flashggSystTagMerger
+TimeReport   0.004086     0.004086     0.004086  flashggTHQHadronicTag
+TimeReport   0.016711     0.016711     0.016711  flashggTHQLeptonicTag
+TimeReport   0.000278     0.000278     0.000278  flashggTTHDiLeptonTag
+TimeReport   0.322263     0.322263     0.322263  flashggTTHHadronicTag
+TimeReport   0.000138     0.000138     0.000138  flashggTTHLeptonicTag
+TimeReport   0.000924     0.000924     0.000924  flashggTagSorter
+TimeReport   0.001684     0.001684     0.001684  flashggUnpackedJets
+TimeReport   0.000256     0.000256     0.000256  flashggUntagged
+TimeReport   0.000630     0.000630     0.000630  flashggVBFDiPhoDiJetMVA
+TimeReport   0.000534     0.000534     0.000534  flashggVBFMVA
+TimeReport   0.000956     0.000956     0.000956  flashggVBFTag
+TimeReport   0.000155     0.000155     0.000155  flashggVHHadronicTag
+TimeReport   0.000173     0.000173     0.000173  flashggVHMetTag
+TimeReport   0.000350     0.000350     0.000350  flashggVHhadMVA
+TimeReport   0.000207     0.000207     0.000207  flashggWHLeptonicTag
+TimeReport   0.000177     0.000177     0.000177  flashggZHLeptonicTag
+TimeReport   0.000017     0.000017     0.000017  p
+TimeReport   3.118402     3.118402     3.118402  tagsDumper
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostGlobalEndRun                  
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
+
+dropped waiting message count 0
