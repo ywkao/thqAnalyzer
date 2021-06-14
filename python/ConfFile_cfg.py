@@ -10,6 +10,8 @@ process.source = cms.Source("PoolSource",
     )
 )
 
+# Summer19UL17_V5_MC.db
+# Summer19UL17_JRV2_MC.db
 #----------------------------------------------------------------------------------------------------
 # Update JEC (from Stephanie)
 # twiki page: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookJetEnergyCorrections
@@ -19,10 +21,12 @@ from CondCore.CondDB.CondDB_cfi import *
 
 process.jec = cms.ESSource('PoolDBESSource',
     connect = cms.string('sqlite:Fall17_17Nov2017_V32_94X_MC.db'), #(--> To be adapted to the correction file you want to use)
+    #connect = cms.string('sqlite:Summer19UL17_V5_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         cms.PSet(
             record = cms.string('JetCorrectionsRecord'),
             tag    = cms.string('JetCorrectorParametersCollection_Fall17_17Nov2017_V32_94X_MC_AK4PFchs'),
+            #tag    = cms.string('JetCorrectorParametersCollection_Summer19UL17_V5_MC_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )
@@ -33,17 +37,20 @@ process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
 
 process.jeR = cms.ESSource('PoolDBESSource',
     connect = cms.string('sqlite:Fall17_V3b_MC.db'), #(--> To be adapted to the correction file you want to use)
+    #connect = cms.string('sqlite:Summer19UL17_JRV2_MC.db'), #(--> To be adapted to the correction file you want to use)
     toGet = cms.VPSet(
         # Resolution
         cms.PSet(
             record = cms.string('JetResolutionRcd'),
             tag    = cms.string('JR_Fall17_V3b_MC_PtResolution_AK4PFchs'),
+            #tag    = cms.string('JR_Summer19UL17_JRV2_MC_PtResolution_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs_pt')
         ),
         # Scale factors
         cms.PSet(
             record = cms.string('JetResolutionScaleFactorRcd'),
             tag    = cms.string('JR_Fall17_V3b_MC_SF_AK4PFchs'),
+            #tag    = cms.string('JR_Summer19UL17_JRV2_MC_SF_AK4PFchs'),
             label  = cms.untracked.string('AK4PFchs')
         ),
     )
@@ -75,7 +82,7 @@ process.slimmedJetsSmeared = cms.EDProducer('SmearedPATJetProducer',
     dRMax = cms.double(0.2),
     dPtMaxFactor = cms.double(3),
 
-    debug = cms.untracked.bool(False),
+    debug = cms.untracked.bool(True),
     # Systematic variation
     # 0: Nominal
     # -1: -1 sigma (down variation)
@@ -86,6 +93,7 @@ process.slimmedJetsSmeared = cms.EDProducer('SmearedPATJetProducer',
 #----------------------------------------------------------------------------------------------------
 
 process.demo = cms.EDAnalyzer('thqAnalyzer',
+    rho = cms.InputTag("fixedGridRhoFastjetAll"),
     jetsColBeforeJER = cms.InputTag("selectedUpdatedPatJetsUpdatedJEC"),
     jetsCol = cms.InputTag('slimmedJetsSmeared'),
     jets = cms.InputTag("slimmedJets")
@@ -96,7 +104,8 @@ process.p = cms.Path( process.slimmedJetsSmeared * process.demo, task )
 
 process.out = cms.OutputModule(
     "PoolOutputModule",
-    fileName = cms.untracked.string('new_1_132_131039.root'),
+    #fileName = cms.untracked.string('new_1_132_131039.root'),
+    fileName = cms.untracked.string('new_1_132_131124.root'),
     outputCommands = cms.untracked.vstring(
         "keep *"
     )

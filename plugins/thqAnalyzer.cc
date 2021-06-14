@@ -34,6 +34,8 @@
 #include "FWCore/Utilities/interface/InputTag.h"
 #include "DataFormats/PatCandidates/interface/Jet.h"
 
+#include "JetMETCorrections/Modules/interface/JetResolution.h"
+
 //
 // class declaration
 //
@@ -63,6 +65,7 @@ class thqAnalyzer : public edm::one::EDAnalyzer<edm::one::SharedResources>  {
       edm::EDGetTokenT<std::vector<pat::Jet>> jetToken_;
       edm::EDGetTokenT<std::vector<pat::Jet>> jetsColBeforeJERToken_;
       edm::EDGetTokenT<std::vector<pat::Jet>> jetsColToken_;
+      edm::EDGetTokenT<double> m_rho_token;
 };
 
 //
@@ -79,7 +82,8 @@ class thqAnalyzer : public edm::one::EDAnalyzer<edm::one::SharedResources>  {
 thqAnalyzer::thqAnalyzer(const edm::ParameterSet& iConfig):
     jetToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jets"))),
     jetsColBeforeJERToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jetsColBeforeJER"))),
-    jetsColToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jetsCol")))
+    jetsColToken_(consumes<std::vector<pat::Jet>>(iConfig.getParameter<edm::InputTag>("jetsCol"))),
+    m_rho_token( consumes<double>(iConfig.getParameter<edm::InputTag>("rho")) )
 {
    //now do what ever initialization is needed
 
@@ -105,6 +109,11 @@ thqAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 {
     using namespace edm;
 
+    JME::JetResolution resolution = JME::JetResolution::get(iSetup, "AK4PFchs_pt");
+    JME::JetResolutionScaleFactor resolution_sf = JME::JetResolutionScaleFactor::get(iSetup, "AK4PFchs");
+
+    edm::Handle<double> rho;
+    iEvent.getByToken(m_rho_token, rho);
 
     printf("\n--------------------------------------------------\n\n");
     printf(">>> slimmedJets \n");
@@ -114,6 +123,14 @@ thqAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
     for (const pat::Jet &j : *jets) {
         ijet += 1;
         std::cout << "Jet " << ijet << ": Pt " << j.pt() << " eta " << j.eta() << " phi " << j.phi() << " E " << j.energy() << std::endl;
+
+        double jet_resolution = resolution.getResolution(
+            {{JME::Binning::JetPt, j.pt()}, {JME::Binning::JetEta, j.eta()}, {JME::Binning::Rho, *rho}});
+        double jer_sf = resolution_sf.getScaleFactor({{JME::Binning::JetPt, j.pt()}, {JME::Binning::JetEta, j.eta()}},
+                                                     Variation::NOMINAL,
+                                                     "");
+
+        std::cout << "jet_resolution: " << jet_resolution << ", jer_sf: " << jer_sf << std::endl;
     }
 
 
